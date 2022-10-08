@@ -4,6 +4,8 @@ import os
 import argparse
 import spacy
 from spacy.lang.es.examples import sentences 
+from spellchecker import SpellChecker
+
 
 '''
 parser = argparse.ArgumentParser(description='Obtaining Lemmas')
@@ -13,7 +15,9 @@ path = argparse.srtPath
 '''
 
 #path = "C:/Users/Gissella_BejaranoNic/Documents/PeruvianSignLanguage/Data/AEC/Videos/SEGMENTED_SIGN"
-path ="C:/Users/Gissella_BejaranoNic/Documents/PeruvianSignLanguage/Data/pucp_pkl-video-srt-descargadDRIVE/PUCP_PSL_DGI156/Videos/SEGMENTED_SIGN_ADJUSTED"
+
+#path ="C:/Users/Gissella_BejaranoNic/Documents/PeruvianSignLanguage/Data/pucp_pkl-video-srt-descargadDRIVE/PUCP_PSL_DGI156/Videos/SEGMENTED_SIGN_ADJUSTED"
+path = "C:/Users/Gissella_BejaranoNic/Documents/PeruvianSignLanguage/Data/AEC/Videos/SEGMENTED_SIGN"
 
 
 # Check
@@ -28,9 +32,14 @@ es_core_news_lg
 es_dep_news_trf
 '''
 
-nlp = spacy.load("es_core_news_sm")
+#download model/vocabulary
+
+#nlp = spacy.load("es_core_news_sm") #
+nlp = spacy.load("es_dep_news_trf")
 doc = nlp(sentences[0])
 print(doc.text)
+
+spell = SpellChecker()
 
 #print(token.text, token.pos_, token.dep_) # pos: verb, noun - dep: obj, advc1
 
@@ -65,7 +74,10 @@ for root, dirs, files in os.walk(path):
             if len(fileTokens)==1:
                 print(fileTokens,fileTokens[0], len(fileTokens))
                 gloss = fileTokens[0].text.lower()
-                lemma = fileTokens[0].lemma_.lower()
+                lemma = fileTokens[0].lemma_
+                lemma = lemma.lower()
+                # fix mispelling
+                lemma = spell.correction(lemma)
 
                 # Get the lemma of the word and add it in the vocabulary. This is to group the signs annotated as different conjugations, number and gender.
 
@@ -82,7 +94,9 @@ for root, dirs, files in os.walk(path):
                 # Save lemma, original word, path
                 lemmaColumn.append(lemma)
                 glossColumn.append(gloss)
-                pathsColumn.append(os.path.join(root,fileName))
+                #print(root)
+                #print(dirs)
+                pathsColumn.append(os.path.join(os.path.basename(root),fileName))
 
             # glossses that contain more than one word would be storaged in a file for further analysis
             else:

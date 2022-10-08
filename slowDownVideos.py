@@ -6,13 +6,15 @@ import glob
 import argparse
 import pandas as pd
 
-
-dfLemmas = pd.read_csv("lemmaTestDynamo.csv", encoding='utf-8')
+path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/AWS/PUCP-DGI305-JOE/Videos"
+dfLemmas = pd.read_csv("lemmaPUCP305-reviewed.csv", encoding='utf-8')
+shFile = 'slowDownVideos305.sh'
 
 # Write command ffmpeg for each video
-listFFcommands = ['ffmpeg -i '+LemmaPath.replace('\\','/')+' -filter:v "setpts=2.5*PTS" '+ 'videosSlowed/'+lemma+'.mp4' for (lemma, LemmaPath) in dfLemmas[["Lemma", "Path"]].values]
+#LemmaPath.replace('\\','/')
+listFFcommands = ['ffmpeg -i "'+os.path.join(path,"SEGMENTED_SIGN",LemmaPath).replace('\\','/')+'" -filter:v "setpts=2.5*PTS" '+ 'videosSlowed305/'+gloss+'.mp4' for (gloss, LemmaPath) in dfLemmas[["GlossVar", "Path"]].values]
 
-with open('slowDownVideos.sh', 'w') as f:
+with open(shFile, 'w') as f:
     for line in listFFcommands:
         f.write(line)
         f.write('\n')

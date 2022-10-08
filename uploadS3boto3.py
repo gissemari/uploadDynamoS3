@@ -14,10 +14,14 @@ parser.add_argument('--path', type=str, default="C:/Users/Gissella_BejaranoNic/D
 
 args = parser.parse_args()
 
+#path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/AWS/PUCP-DGI305-JOE/Videos"
+path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/AWS/videosSlowed305"
 
 # fie with unique lemmas with a selected video file (from all the instances)
-dfLemmas = pd.read_csv("lemmaDynamo.csv", encoding='utf-8')
-
+# dfLemmas = pd.read_csv("lemmaDynamo.csv", encoding='utf-8')
+# uploading DGI305
+dfLemmas = pd.read_csv("lemmaPUCP305-reviewed.csv", encoding='utf-8')
+dfSentence = pd.read_csv("listSentencesVideos.csv", encoding='utf-8')
 
 #s3_client = boto3.client('s3', region_name='us-east-1', aws_access_key_id=accessKey, aws_secret_access_key=accessSecretKey)
 
@@ -47,7 +51,8 @@ def upload_file(file_name, bucket, object_name=None):
         return False
     return True
 
-# tutorial    
+# tutorial  
+'''  
 def upload_my_file(bucket, folder, file_as_binary, file_name):
         file_as_binary = io.BytesIO(file_as_binary)
         key = folder+"/"+file_name
@@ -57,8 +62,10 @@ def upload_my_file(bucket, folder, file_as_binary, file_name):
             print(e)
             return False
         return True
+'''
 
 bucket = 'isolatedsigns'
+bucketSentence = 'sentencesigns'
 
 #for fileName in os.listdir(path):
 # uploading from folder directly
@@ -81,4 +88,9 @@ for fileName in glob.glob(path):# files:
 #uploading from csv
 #[print(LemmaPath,bucket,lemma) for (lemma, LemmaPath) in dfLemmas[["Lemma", "Path"]].values]
 
-[upload_file(LemmaPath,bucket,lemma) for (lemma, LemmaPath) in dfLemmas[["Lemma", "Path"]].values]
+#[upload_file(os.path.join(path,"SEGMENTED_SIGN",LemmaPath),bucket,gloss+".mp4") for (gloss, LemmaPath) in dfLemmas[["GlossVar", "Path"]].values]
+
+[upload_file(os.path.join(path,gloss+".mp4"),bucket,gloss+".mp4") for (gloss, LemmaPath) in dfLemmas[["GlossVar", "Path"]].values]
+
+
+#[upload_file(os.path.join(path,"original",videoPath),bucketSentence,videoName) for (videoPath, videoName) in dfLemmas[["SentencePath","NEW_SENT_NAME"]].values]
