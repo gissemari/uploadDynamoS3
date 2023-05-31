@@ -15,13 +15,14 @@ parser.add_argument('--path', type=str, default="C:/Users/Gissella_BejaranoNic/D
 args = parser.parse_args()
 
 #path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/AWS/PUCP-DGI305-JOE/Videos"
-path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/AWS/videosSlowed305"
+path = "/home/ubuntu/repositories/uploadDynamoS3/videosSlowed305"
+sentence_path = "/home/ubuntu/repositories/PeruvianSignLanguage/Data/PUCP_PSL_DGI305/Videos"
 
 # fie with unique lemmas with a selected video file (from all the instances)
 # dfLemmas = pd.read_csv("lemmaDynamo.csv", encoding='utf-8')
 # uploading DGI305
 dfLemmas = pd.read_csv("lemmaPUCP305-reviewed.csv", encoding='utf-8')
-dfSentence = pd.read_csv("listSentencesVideos.csv", encoding='utf-8')
+# dfSentence = pd.read_csv("listSentencesVideos.csv", encoding='utf-8')
 
 #s3_client = boto3.client('s3', region_name='us-east-1', aws_access_key_id=accessKey, aws_secret_access_key=accessSecretKey)
 
@@ -64,8 +65,8 @@ def upload_my_file(bucket, folder, file_as_binary, file_name):
         return True
 '''
 
-bucket = 'isolatedsigns'
-bucketSentence = 'sentencesigns'
+bucket = 'test-isolatedsigns'
+bucketSentence = 'test-sentencesigns'
 
 #for fileName in os.listdir(path):
 # uploading from folder directly
@@ -93,4 +94,4 @@ for fileName in glob.glob(path):# files:
 [upload_file(os.path.join(path,gloss+".mp4"),bucket,gloss+".mp4") for (gloss, LemmaPath) in dfLemmas[["GlossVar", "Path"]].values]
 
 
-#[upload_file(os.path.join(path,"original",videoPath),bucketSentence,videoName) for (videoPath, videoName) in dfLemmas[["SentencePath","NEW_SENT_NAME"]].values]
+[upload_file(os.path.join(sentence_path,"original",videoPath),bucketSentence,videoName) for (videoPath, videoName) in dfLemmas[["SentencePath","SentencePath"]].values]

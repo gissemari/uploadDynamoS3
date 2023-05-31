@@ -18,7 +18,7 @@ path = argparse.srtPath
 
 #path ="C:/Users/Gissella_BejaranoNic/Documents/PeruvianSignLanguage/Data/pucp_pkl-video-srt-descargadDRIVE/PUCP_PSL_DGI156/Videos/SEGMENTED_SIGN_ADJUSTED"
 path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/AWS/PUCP-DGI305-JOE/Videos/SEGMENTED_SIGN"
-
+path = "../datasets/PUCP_PSL_DGI305/Videos/SEGMENTED_SIGN"
 # Check
 # Building the ASL Signbank: Lemmatization Principles for ASL http://lrec-conf.org/workshops/lrec2018/W1/pdf/18048_W1.pdf
 
