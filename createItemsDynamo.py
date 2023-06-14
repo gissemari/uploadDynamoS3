@@ -98,6 +98,11 @@ for index, row in dfLemmas.iterrows():
     gloss = row['GlossVar']#fileName[:-4]
     text = row['TextSentence']
     sentName = row['SentencePath']
+
+    '''
+    webname = row['Webname']
+    '''  
+
     # add sort key, unique gloss, includes variants
 
     # putRequest does not exist
@@ -110,7 +115,9 @@ for index, row in dfLemmas.iterrows():
     dictActual["PutRequest"]["Item"]["url"]["S"] += gloss + '.mp4'
     dictActual["PutRequest"]["Item"]["urlSentence"]["S"] += sentName
     dictActual["PutRequest"]["Item"]["text"]["S"] += text
-    
+    '''
+    dictActual["PutRequest"]["Item"]["webname"]["S"] += webname
+    '''
     listFiles.append(dictActual)
 
 

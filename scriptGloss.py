@@ -7,19 +7,13 @@ from spacy.lang.es.examples import sentences
 from spellchecker import SpellChecker
 
 
-'''
+
 parser = argparse.ArgumentParser(description='Obtaining Lemmas')
-parser.add_argument('--srtPath', type=str, default='./../Data/PUCP_PSL_DGI156/SRT/SRT_SEGMENTED_SIGN/', help='Path where the original SRT is located')
+parser.add_argument('--videoPath', type=str, default='../datasets/PUCP_PSL_DGI305/Videos/SEGMENTED_SIGN', help='Path where segmented videos are located')
 args = parser.parse_args()
-path = argparse.srtPath
-'''
+path = argparse.videoPath
 
-#path = "C:/Users/Gissella_BejaranoNic/Documents/PeruvianSignLanguage/Data/AEC/Videos/SEGMENTED_SIGN"
-
-#path ="C:/Users/Gissella_BejaranoNic/Documents/PeruvianSignLanguage/Data/pucp_pkl-video-srt-descargadDRIVE/PUCP_PSL_DGI156/Videos/SEGMENTED_SIGN_ADJUSTED"
-path = "C:/Users/Gissella_BejaranoNic/Documents/PeruvianSignLanguage/Data/AEC/Videos/SEGMENTED_SIGN"
-
-
+# path = "../datasets/PUCP_PSL_DGI305/Videos/SEGMENTED_SIGN"
 # Check
 # Building the ASL Signbank: Lemmatization Principles for ASL http://lrec-conf.org/workshops/lrec2018/W1/pdf/18048_W1.pdf
 
@@ -47,6 +41,7 @@ spell = SpellChecker()
 glossColumn = []
 pathsColumn = []
 lemmaColumn = []
+sentenceColumn = []
 sameGlossLemma = []
 vocab = {}
 vocab2words = {}
@@ -62,71 +57,66 @@ for root, dirs, files in os.walk(path):
     
         print(fileName)
         
-        if fileName.endswith(".mp4"):
+        if fileName.endswith(".mp4") and "ORACION" in os.path.basename(root):
             # get rid of underscore with number of instance
             newFileName = fileName[:-4]
             posUnderScore = newFileName.find('_')
             # identify more than one word in a token (separated by hyphen, replacing it by blank)
-            newFileName = newFileName[:posUnderScore].replace("-"," ")
-            fileTokens = nlp(newFileName) # Converts a sentence in a list of words of the file name (without extension)
+            newFileName = newFileName[:posUnderScore]
+            fileTokens = nlp(newFileName.replace("-"," ")) # Converts a sentence in a list of words of the file name (without extension)
 
-            # For the moment, work with the glosses that contain only one word
-            if len(fileTokens)==1:
-                print(fileTokens,fileTokens[0], len(fileTokens))
-                gloss = fileTokens[0].text.lower()
-                lemma = fileTokens[0].lemma_
-                lemma = lemma.lower()
-                # fix mispelling
-                lemma = spell.correction(lemma)
 
-                # Get the lemma of the word and add it in the vocabulary. This is to group the signs annotated as different conjugations, number and gender.
+            print(fileTokens,fileTokens[0], len(fileTokens))
+            gloss = fileTokens[0].text.lower()
+            lemma = fileTokens[0].lemma_
+            lemma = lemma.lower()
+            # fix mispelling
+            #lemma = spell.correction(lemma)
 
-                if lemma in vocab:
-                    vocab[lemma] +=1
-                else:
-                    vocab[lemma] = 1
-                    
-                if lemma == gloss:
-                    sameGlossLemma.append(1)
-                else:
-                    sameGlossLemma.append(0)
+            # Get the lemma of the word and add it in the vocabulary. This is to group the signs annotated as different conjugations, number and gender.
 
-                # Save lemma, original word, path
-                lemmaColumn.append(lemma)
-                glossColumn.append(gloss)
-                #print(root)
-                #print(dirs)
-                pathsColumn.append(os.path.join(os.path.basename(root),fileName))
-
-            # glossses that contain more than one word would be storaged in a file for further analysis
+            if newFileName in vocab:
+                vocab[newFileName] +=1
             else:
-                if fileTokens in vocab2words:
-                    vocab2words[fileTokens] +=1
-                else:
-                    vocab2words[fileTokens] = 1
-                    #gloss2words.append(fileName)
+                vocab[newFileName] = 1
+                
+            if newFileName == gloss:
+                sameGlossLemma.append(1)
+            else:
+                sameGlossLemma.append(0)
 
-                print(fileTokens.text)
+            # Save lemma, original word, path
+            lemmaColumn.append(lemma)
+            glossColumn.append(newFileName)
+            pathsColumn.append(os.path.join(os.path.basename(root),fileName))
+
+            # get video of the sentence
+            sentenceColumn.append(os.path.basename(root)+".mp4")
+
 
 
 # Export an intermediate file with all isolated glosses, their lemmas and their paths
-dictGloss = {"Original Raw Gloss":glossColumn ,"Lemma":lemmaColumn , "SameLemmaGloss": sameGlossLemma,"Path":pathsColumn}
+dictGloss = {"Original Raw Gloss":glossColumn ,"Lemma":lemmaColumn , "SameLemmaGloss": sameGlossLemma,"Path":pathsColumn, "Sentence Video": sentenceColumn}
 df = pd.DataFrame(dictGloss)
 df2words = pd.DataFrame.from_dict(vocab2words, orient='index', columns=['Frequence'])
 
-df.to_csv("glosses.csv", encoding='utf-8')
-df2words.to_csv("gloss2words.csv", encoding='utf-8')
+df.to_csv("glossesPUCP305.csv", encoding='utf-8')
+df2words.to_csv("gloss2wordsPUCP305.csv", encoding='utf-8')
 
 
-# For each unique lemma, choose any video to represent it. It is recommended that is done after a cleaning to recognize what glosses can be mislabeled or wrongly annotated
+# For each unique gloss, choose any video to represent it. It is recommended that is done after a cleaning to recognize what glosses can be mislabeled or wrongly annotated
 
+
+#Instead of LEMMA is GLOSS (including the two word glosses)
 listLemmasVideos = []
 listLemmas = [] 
-for lemma, freq in vocab.items():
-    dfVideosOfLemma = df[df['Lemma']==lemma]
+for gloss, freq in vocab.items():
+    dfVideosOfLemma = df[df['Original Raw Gloss']==gloss]
+    lemmaReal = dfVideosOfLemma['Lemma'].iloc[0]
     videoPath = dfVideosOfLemma['Path'].iloc[0]
-    listLemmas.append([lemma, freq, videoPath])
+    sentencePath = dfVideosOfLemma['Sentence Video'].iloc[0]
+    listLemmas.append([lemmaReal, gloss,freq, videoPath,sentencePath])
     #listLemmasVideos.append(videoPath)
 
-dfLemma = pd.DataFrame(listLemmas, columns=["Lemma", "Frequence","Path"])
-dfLemma.to_csv("lemma.csv", encoding='utf-8')
+dfLemma = pd.DataFrame(listLemmas, columns=["Sign","GlossVar", "Frequence","Path","SentencePath"])
+dfLemma.to_csv("lemmaPUCP305.csv", encoding='utf-8')
