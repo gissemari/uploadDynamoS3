@@ -5,14 +5,15 @@ import argparse
 import spacy
 from spacy.lang.es.examples import sentences 
 from spellchecker import SpellChecker
+import time
 
-
-
-parser = argparse.ArgumentParser(description='Obtaining Lemmas')
-parser.add_argument('--videoPath', type=str, default='../datasets/PUCP_PSL_DGI305/Videos/SEGMENTED_SIGN', help='Path where segmented videos are located')
-args = parser.parse_args()
-path = argparse.videoPath
-
+def find_second_underscore(input_string):
+    return input_string.find("_", input_string.find("_") + 1)
+# parser = argparse.ArgumentParser(description='Obtaining Lemmas')
+# parser.add_argument('--videoPath', type=str, default='../Datasets/PUCP_PSL_DGI305/Videos/SEGMENTED_SIGN', help='Path where segmented videos are located')
+# args = parser.parse_args()
+# path = argparse.videoPath
+path = '../Datasets/PUCP_LSP_DGI305/Videos/SEGMENTED_SIGN'
 # path = "../datasets/PUCP_PSL_DGI305/Videos/SEGMENTED_SIGN"
 # Check
 # Building the ASL Signbank: Lemmatization Principles for ASL http://lrec-conf.org/workshops/lrec2018/W1/pdf/18048_W1.pdf
@@ -52,24 +53,38 @@ vocab2words = {}
 # Collect all the glosses and simplified them in their lemma
 
 for root, dirs, files in os.walk(path):
-
     for fileName in files:
-    
-        print(fileName)
-        
         if fileName.endswith(".mp4") and "ORACION" in os.path.basename(root):
+            print()
+            print("#"*10)
+            print(root)
+        
+            print(f"filename: {fileName}")
+            
             # get rid of underscore with number of instance
             newFileName = fileName[:-4]
-            posUnderScore = newFileName.find('_')
+            print(f"newFileName {newFileName}")
+
+            # posUnderScore = newFileName.find('_')
+            
+            posUnderScore = find_second_underscore(newFileName)
+            
             # identify more than one word in a token (separated by hyphen, replacing it by blank)
             newFileName = newFileName[:posUnderScore]
-            fileTokens = nlp(newFileName.replace("-"," ")) # Converts a sentence in a list of words of the file name (without extension)
+            newFileName2 = newFileName.replace("_"," ")
+            print(f"newFileName before underScore {newFileName}")
+            fileTokens = nlp(newFileName2.replace("-"," ")) # Converts a sentence in a list of words of the file name (without extension)
+            #ABURRIDO 1
+            #ABURRIDO 2
+            #ABRIR CAJON 1
 
-
+            print("fileTokens, fileTokens[0], len(fileTokens)")
             print(fileTokens,fileTokens[0], len(fileTokens))
             gloss = fileTokens[0].text.lower()
             lemma = fileTokens[0].lemma_
             lemma = lemma.lower()
+            print(f'gloss: {gloss}')
+            print(f'lemma: {lemma}')
             # fix mispelling
             #lemma = spell.correction(lemma)
 
@@ -119,4 +134,4 @@ for gloss, freq in vocab.items():
     #listLemmasVideos.append(videoPath)
 
 dfLemma = pd.DataFrame(listLemmas, columns=["Sign","GlossVar", "Frequence","Path","SentencePath"])
-dfLemma.to_csv("lemmaPUCP305.csv", encoding='utf-8')
+dfLemma.to_csv("lemmaPUCP305_v3.csv", encoding='utf-8')

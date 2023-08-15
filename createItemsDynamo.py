@@ -25,12 +25,12 @@ listFiles = []
 #path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/videosSlowed"
 #path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/AWS/PUCP-DGI305-JOE/Videos"
 path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/videosSlowed305"
-path = "../datasets/PUCP_PSL_DGI305/Videos/SEGMENTED_SIGN"
+path = "..\\Datasets\\PUCP_PSL_DGI305\\Videos\\SEGMENTED_SIGN"
 def writeBatchItemDynamo(listDicts):
 
     client = boto3.client('dynamodb')
     try:
-        response = client.batch_write_item( RequestItems={"test-sign": listDicts},
+        response = client.batch_write_item( RequestItems={"gloss": listDicts},
                                             ReturnConsumedCapacity='TOTAL',#'INDEXES'|'TOTAL'|'NONE',
                                             ReturnItemCollectionMetrics='SIZE'#'SIZE'|'NONE'
                                         )
@@ -53,12 +53,13 @@ def writeBatchItemDynamo(listDicts):
 'BOOL': True|False
 '''
                                                             
-dictTemplate = {"PutRequest":   { "Item":   {   "test-sign_gloss": {"S": ""},
-                                                "test-sign_gloss_var": {"S":""},
+dictTemplate = {"PutRequest":   { "Item":   {   "sign_gloss": {"S": ""},
+                                                "sign_gloss_var": {"S":""},
                                                 "category": {"S": "categoria0"},
-                                                "url": {"S": "s3://test-isolatedsigns/"},
-                                                "urlSentence": {"S": "s3://test-sentencesigns/"},
-                                                "text": {"S":""}
+                                                "url": {"S": "s3://isolatedsigns/"},
+                                                "urlSentence": {"S": "s3://sentencesigns/"},
+                                                "text": {"S":""},
+                                                "webname": {"S":""}
                                             }
                                 }
                }
@@ -94,14 +95,11 @@ dictTemplate = {"PutRequest":   { "Item":   {   "test-sign_gloss": {"S": ""},
 dfLemmas = pd.read_csv("lemmaPUCP305-reviewed.csv", encoding='utf-8')
 for index, row in dfLemmas.iterrows():
     dictActual = copy.deepcopy(dictTemplate)
-    sign = row['Sign']
+    sign = row['word2search']
     gloss = row['GlossVar']#fileName[:-4]
     text = row['TextSentence']
     sentName = row['SentencePath']
-
-    '''
     webname = row['Webname']
-    '''  
 
     # add sort key, unique gloss, includes variants
 
@@ -110,14 +108,12 @@ for index, row in dfLemmas.iterrows():
     #dictActual[PutRequest][Item]["sign_gloss_var"]["S"] += newFileName
     #dictActual[PutRequest][Item]["url"]["S"] += newFileName
 
-    dictActual["PutRequest"]["Item"]["test-sign_gloss"]["S"] += sign
-    dictActual["PutRequest"]["Item"]["test-sign_gloss_var"]["S"] += gloss
+    dictActual["PutRequest"]["Item"]["sign_gloss"]["S"] += sign
+    dictActual["PutRequest"]["Item"]["sign_gloss_var"]["S"] += gloss
     dictActual["PutRequest"]["Item"]["url"]["S"] += gloss + '.mp4'
     dictActual["PutRequest"]["Item"]["urlSentence"]["S"] += sentName
     dictActual["PutRequest"]["Item"]["text"]["S"] += text
-    '''
     dictActual["PutRequest"]["Item"]["webname"]["S"] += webname
-    '''
     listFiles.append(dictActual)
 
 

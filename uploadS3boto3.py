@@ -15,8 +15,9 @@ parser.add_argument('--path', type=str, default="C:/Users/Gissella_BejaranoNic/D
 args = parser.parse_args()
 
 #path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/AWS/PUCP-DGI305-JOE/Videos"
-path = "/home/ubuntu/repositories/uploadDynamoS3/videosSlowed305"
-sentence_path = "/home/ubuntu/repositories/PeruvianSignLanguage/Data/PUCP_PSL_DGI305/Videos"
+path = "videosSlowed305"
+sentence_path = "..\\PeruvianSignLanguage\\Data\\PUCP_PSL_DGI305\\Videos"
+# sentence_path = "/home/ubuntu/repositories/PeruvianSignLanguage/Data/PUCP_PSL_DGI305/Videos"
 
 # fie with unique lemmas with a selected video file (from all the instances)
 # dfLemmas = pd.read_csv("lemmaDynamo.csv", encoding='utf-8')
@@ -65,8 +66,8 @@ def upload_my_file(bucket, folder, file_as_binary, file_name):
         return True
 '''
 
-bucket = 'test-isolatedsigns'
-bucketSentence = 'test-sentencesigns'
+bucket = 'isolatedsigns'
+bucketSentence = 'sentencesigns'
 
 #for fileName in os.listdir(path):
 # uploading from folder directly

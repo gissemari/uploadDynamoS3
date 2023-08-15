@@ -7,7 +7,7 @@ import argparse
 import pandas as pd
 
 # path = "C:/Users/Gissella_BejaranoNic/Documents/SignLanguage/Upload AWS S3/AWS/PUCP-DGI305-JOE/Videos"
-path = "../datasets/PUCP_PSL_DGI305/Videos"
+path = "../Datasets/PUCP_PSL_DGI305/Videos"
 # dfLemmas = pd.read_csv("lemmaPUCP305-reviewed.csv", encoding='utf-8')
 
 dfLemmas = pd.read_csv("lemmaPUCP305-reviewed.csv", encoding='utf-8')
