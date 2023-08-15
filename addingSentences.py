@@ -36,9 +36,9 @@ def extract_substring(path):
 
 
 # Load the lemmaPUCP305.csv file
-csv_path = "lemmaPUCP305.csv"
-base_folder = "/home/ubuntu/repositories/datasets/PUCP_305"
-
+csv_path = "lemmaPUCP305_v3.csv"
+base_folder = "..\\Datasets\\PUCP_Glosas"
+base_folder = os.path.normpath(base_folder)
 df = pd.read_csv(csv_path, index_col=False)
 print(df)
 
@@ -51,7 +51,8 @@ for index, row in df.iterrows():
 
     path = row["Path"]
     print("path:", path)
-    parts = path.split('/')
+    parts = path.split('\\')
+    print("parts: ",parts)
     glosa = parts[0]
     extracted_word = extract_substring(glosa)
     print("extracted word:", extracted_word)
@@ -116,18 +117,18 @@ new_df = pd.DataFrame()
 new_df["TextSentence"] = text_sentences
 new_df["EAFPath"] = eaf_paths
 
-new_csv_path = "lemmaPUCP305-sentences.csv"
-new_df.to_csv(new_csv_path, index=False)
+new_csv_path = "lemmaPUCP305-sentences_v3.csv"
+new_df.to_csv(new_csv_path, index=False, encoding='utf-16')
 
 df["TextSentence"] = text_sentences
 
 # # Save the updated dataframe to a new CSV file
-new_csv_path = "lemmaPUCP305-reviewed.csv"
-df.to_csv(new_csv_path, index=False)
+new_csv_path = "lemmaPUCP305-reviewed_v3.csv"
+df.to_csv(new_csv_path, index=False, encoding='utf-16')
 
 
 
 # Save the error log to a log file
-log_file = "error_log.txt"
+log_file = "error_log_v3.txt"
 with open(log_file, "w") as f:
     f.write("\n".join(error_log))

@@ -1,398 +1,417 @@
-Unnamed: 0,Sign,GlossVar,Frequence,Path,SentencePath,TextSentence
-0,pato,PATO,2,DIECISIETE_ORACION_2/PATO_2.mp4,DIECISIETE_ORACION_2.mp4,La cantidad de patos es 17.
-1,diecisiete,DIECISIETE,4,DIECISIETE_ORACION_2/DIECISIETE_3.mp4,DIECISIETE_ORACION_2.mp4,La cantidad de patos es 17.
-2,cuanto,CUANTO,14,DIECISIETE_ORACION_2/CUANTO_1.mp4,DIECISIETE_ORACION_2.mp4,La cantidad de patos es 17.
-3,comer,COMER-MANZANA,1,CAPTAR_ORACION_1/COMER-MANZANA_3.mp4,CAPTAR_ORACION_1.mp4,Yo capté que comía una manzana. ¿Quién? Capté que él.
-4,yo,YO,143,CAPTAR_ORACION_1/YO_1.mp4,CAPTAR_ORACION_1.mp4,Yo capté que comía una manzana. ¿Quién? Capté que él.
-5,quien,QUIEN,2,CAPTAR_ORACION_1/QUIEN_4.mp4,CAPTAR_ORACION_1.mp4,Yo capté que comía una manzana. ¿Quién? Capté que él.
-6,captar,CAPTAR,4,CAPTAR_ORACION_1/CAPTAR_2.mp4,CAPTAR_ORACION_1.mp4,Yo capté que comía una manzana. ¿Quién? Capté que él.
-7,ver,VER,52,HOMBRE_ORACION_1/VER_2.mp4,HOMBRE_ORACION_1.mp4,Ví a un hombre caminar hacia la playa.
-8,uno,UNO,7,HOMBRE_ORACION_1/UNO_3.mp4,HOMBRE_ORACION_1.mp4,Ví a un hombre caminar hacia la playa.
-9,hombre,HOMBRE,5,HOMBRE_ORACION_1/HOMBRE_4.mp4,HOMBRE_ORACION_1.mp4,Ví a un hombre caminar hacia la playa.
-10,playa,PLAYA,2,HOMBRE_ORACION_1/PLAYA_6.mp4,HOMBRE_ORACION_1.mp4,Ví a un hombre caminar hacia la playa.
-11,caminar,CAMINAR-PERSONA,20,HOMBRE_ORACION_1/CAMINAR-PERSONA_5.mp4,HOMBRE_ORACION_1.mp4,Ví a un hombre caminar hacia la playa.
-12,comprar,COMPRAR,9,PELOTA_ORACION_1/COMPRAR_2.mp4,PELOTA_ORACION_1.mp4,Yo compro una pelota.
-13,pelota,PELOTA,1,PELOTA_ORACION_1/PELOTA_3.mp4,PELOTA_ORACION_1.mp4,Yo compro una pelota.
-14,matematica,MATEMATICA,1,DIFICIL_ORACION_1/MATEMATICA_1.mp4,DIFICIL_ORACION_1.mp4,La matématica es difícil.
-15,dificil,DIFICIL,3,DIFICIL_ORACION_1/DIFICIL_2.mp4,DIFICIL_ORACION_1.mp4,La matématica es difícil.
-16,firmar,FIRMAR,3,CASAR_ORACION_1/FIRMAR_6.mp4,CASAR_ORACION_1.mp4,"El y yo, ambos caminabamos, nos sentamos, juntos nos firmamos a una acta y ya estamos casados."
-17,ya,YA,23,CASAR_ORACION_1/YA_7.mp4,CASAR_ORACION_1.mp4,"El y yo, ambos caminabamos, nos sentamos, juntos nos firmamos a una acta y ya estamos casados."
-18,sentar,SENTAR,1,CASAR_ORACION_1/SENTAR_3.mp4,CASAR_ORACION_1.mp4,"El y yo, ambos caminabamos, nos sentamos, juntos nos firmamos a una acta y ya estamos casados."
-19,casar,CASAR,1,CASAR_ORACION_1/CASAR_8.mp4,CASAR_ORACION_1.mp4,"El y yo, ambos caminabamos, nos sentamos, juntos nos firmamos a una acta y ya estamos casados."
-20,libro,LIBRO,3,CASAR_ORACION_1/LIBRO_4.mp4,CASAR_ORACION_1.mp4,"El y yo, ambos caminabamos, nos sentamos, juntos nos firmamos a una acta y ya estamos casados."
-21,dos,DOS,4,JUNTOS_ORACION_1/DOS_2.mp4,JUNTOS_ORACION_1.mp4,Vamos nosotros dos juntos.
-22,vamos,VAMOS,5,JUNTOS_ORACION_1/VAMOS_1.mp4,JUNTOS_ORACION_1.mp4,Vamos nosotros dos juntos.
-23,junto,JUNTOS,1,JUNTOS_ORACION_1/JUNTOS_3.mp4,JUNTOS_ORACION_1.mp4,Vamos nosotros dos juntos.
-24,hora,HORA,3,CHAU_ORACION_2/HORA_4.mp4,CHAU_ORACION_2.mp4,"Ya es hora despues de conversar mucho, bueno me despido."
-25,bueno,BUENO,4,CHAU_ORACION_2/BUENO_1.mp4,CHAU_ORACION_2.mp4,"Ya es hora despues de conversar mucho, bueno me despido."
-26,chau,CHAU,3,CHAU_ORACION_2/CHAU_6.mp4,CHAU_ORACION_2.mp4,"Ya es hora despues de conversar mucho, bueno me despido."
-27,conversar,CONVERSAR,2,CHAU_ORACION_2/CONVERSAR_2.mp4,CHAU_ORACION_2.mp4,"Ya es hora despues de conversar mucho, bueno me despido."
-28,dinero,DINERO,13,ADIVINA_ORACION_1/DINERO_2.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
-29,saber,SABER,3,ADIVINA_ORACION_1/SABER_1.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
-30,curiosidad,CURIOSIDAD,3,ADIVINA_ORACION_1/CURIOSIDAD_4.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
-31,adivina,ADIVINA,1,ADIVINA_ORACION_1/ADIVINA_5.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
-32,robar,ROBAR,3,ADIVINA_ORACION_1/ROBAR_3.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
-33,encontrar él,ENCONTRARSE,2,CAPTAR_ORACION_3/ENCONTRARSE_3.mp4,CAPTAR_ORACION_3.mp4,Yo ya las vi a esas dos personas señando y ya lo capté. 
-34,atrapar,ATRAPAR,3,CAPTAR_ORACION_3/ATRAPAR_7.mp4,CAPTAR_ORACION_3.mp4,Yo ya las vi a esas dos personas señando y ya lo capté. 
-35,señar ,SEÑAR,6,CAPTAR_ORACION_3/SEÑAR_4.mp4,CAPTAR_ORACION_3.mp4,Yo ya las vi a esas dos personas señando y ya lo capté. 
-36,ya,YA-VER,1,CAPTAR_ORACION_3/YA-VER_2.mp4,CAPTAR_ORACION_3.mp4,Yo ya las vi a esas dos personas señando y ya lo capté. 
-37,cornudo,CORNUDO,3,CORNUDO_ORACION_3/CORNUDO_1.mp4,CORNUDO_ORACION_3.mp4,Ja ja ja. Así que eres cornudo. Ja ja ja
-38,libro,LIBROS,2,CAJON_ORACION_2/LIBROS_1.mp4,CAJON_ORACION_2.mp4,"Veo el cajón, lo abro, guardo los libros y al terminar lo cierro."
-39,guardar,GUARDAR,15,CAJON_ORACION_2/GUARDAR_2.mp4,CAJON_ORACION_2.mp4,"Veo el cajón, lo abro, guardo los libros y al terminar lo cierro."
-40,abrir,ABRIR-CAJÓN,2,CAJON_ORACION_2/ABRIR-CAJÓN_4.mp4,CAJON_ORACION_2.mp4,"Veo el cajón, lo abro, guardo los libros y al terminar lo cierro."
-41,empujar,EMPUJAR,3,CAJON_ORACION_2/EMPUJAR_6.mp4,CAJON_ORACION_2.mp4,"Veo el cajón, lo abro, guardo los libros y al terminar lo cierro."
-42,por,POR-FAVOR,9,ENTRAR_ORACION_2/POR-FAVOR_2.mp4,ENTRAR_ORACION_2.mp4,"¡Ingresa, por favor!"
-43,entrar,ENTRAR,5,ENTRAR_ORACION_2/ENTRAR_3.mp4,ENTRAR_ORACION_2.mp4,"¡Ingresa, por favor!"
-44,oye,OYE,16,ENTRAR_ORACION_2/OYE_1.mp4,ENTRAR_ORACION_2.mp4,"¡Ingresa, por favor!"
-45,dormir,DORMIR,7,AMANECER_ORACION_3/DORMIR_1.mp4,AMANECER_ORACION_3.mp4,Dormí toda la noche hasta el amanecer. 
-46,todo,TODA-LA-NOCHE,1,AMANECER_ORACION_3/TODA-LA-NOCHE_2.mp4,AMANECER_ORACION_3.mp4,Dormí toda la noche hasta el amanecer. 
-47,amanecer,AMANECER,3,AMANECER_ORACION_3/AMANECER_3.mp4,AMANECER_ORACION_3.mp4,Dormí toda la noche hasta el amanecer. 
-48,caliente,CALIENTE,2,CASACA_ORACION_1/CALIENTE_11.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
-49,sostener,SOSTENER,4,CASACA_ORACION_1/SOSTENER_4.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
-50,casaca,CASACA,1,CASACA_ORACION_1/CASACA_7.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
-51,agarrar,AGARRAR-ROPA,1,CASACA_ORACION_1/AGARRAR-ROPA_3.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
-52,bonito,BONITO,5,CASACA_ORACION_1/BONITO_5.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
-53,frio,FRIO,3,CASACA_ORACION_1/FRIO_8.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
-54,poner,PONER,1,CASACA_ORACION_1/PONER_6.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
-55,carta,CARTAS-DE-TAROT,1,CARTAS-DE-TAROT_ORACION_1/CARTAS-DE-TAROT_2.mp4,CARTAS-DE-TAROT_ORACION_1.mp4,Vamos a donde las cartas de Tarot por curiosidad.
-56,futbol,FUTBOL,3,DIFICIL_ORACION_2/FUTBOL_1.mp4,DIFICIL_ORACION_2.mp4,El fútbol es difícil
-57,mucho,MUCHO,7,SUDAR_ORACION_3/MUCHO_2.mp4,SUDAR_ORACION_3.mp4,Yo sudo mucho.
-58,sudar,SUDAR,4,SUDAR_ORACION_3/SUDAR_3.mp4,SUDAR_ORACION_3.mp4,Yo sudo mucho.
-59,viajar,VIAJAR,6,FELIZ_ORACION_2/VIAJAR_3.mp4,FELIZ_ORACION_2.mp4,Yo soy feliz viajando.
-60,feliz,FELIZ,3,FELIZ_ORACION_2/FELIZ_2.mp4,FELIZ_ORACION_2.mp4,Yo soy feliz viajando.
-61,reloj,RELOJ,1,CIEN_ORACION_2/RELOJ_1.mp4,CIEN_ORACION_2.mp4,"Agarro el reloj y lo miro, le pregunto ¿Cuántos está este? está cien, sostengo y miro."
-62,cien,CIEN,3,CIEN_ORACION_2/CIEN_4.mp4,CIEN_ORACION_2.mp4,"Agarro el reloj y lo miro, le pregunto ¿Cuántos está este? está cien, sostengo y miro."
-63,pequeño,PEQUEÑO,2,AVIONETA_ORACION_1/PEQUEÑO_2.mp4,AVIONETA_ORACION_1.mp4,Las avionetas se cruzan.
-64,cruzar,CRUZAR-AVION,2,AVIONETA_ORACION_1/CRUZAR-AVION_3.mp4,AVIONETA_ORACION_1.mp4,Las avionetas se cruzan.
-65,avion,AVION,4,AVIONETA_ORACION_1/AVION_1.mp4,AVIONETA_ORACION_1.mp4,Las avionetas se cruzan.
-66,llamar,LLAMAR,1,ESPERAR_ORACION_4/LLAMAR_1.mp4,ESPERAR_ORACION_4.mp4,Me llamó de repente que le dije que espera.
-67,esperar,ESPERAR,10,ESPERAR_ORACION_4/ESPERAR_2.mp4,ESPERAR_ORACION_4.mp4,Me llamó de repente que le dije que espera.
-68,mar,MAR,2,CAER_ORACION_1/MAR_4.mp4,CAER_ORACION_1.mp4,"Yo caminaba, miré algo, me tropecé y me caí por no darme cuenta."
-69,atardecer,ATARDECER,7,CAER_ORACION_1/ATARDECER_5.mp4,CAER_ORACION_1.mp4,"Yo caminaba, miré algo, me tropecé y me caí por no darme cuenta."
-70,tipear,TIPEAR,1,ANOCHECER_ORACION_1/TIPEAR_2.mp4,ANOCHECER_ORACION_1.mp4,Yo tipeaba hasta el amanecer.
-71,anochecer,ANOCHECER,2,ANOCHECER_ORACION_1/ANOCHECER_3.mp4,ANOCHECER_ORACION_1.mp4,Yo tipeaba hasta el amanecer.
-72,nada,NADA-MÁS,1,DIEZ_ORACION_2/NADA-MÁS_7.mp4,DIEZ_ORACION_2.mp4,Yo vi diez sordos en un colegio nada más.
-73,solo,SOLO,1,DIEZ_ORACION_2/SOLO_4.mp4,DIEZ_ORACION_2.mp4,Yo vi diez sordos en un colegio nada más.
-74,colegio,COLEGIO,5,DIEZ_ORACION_2/COLEGIO_3.mp4,DIEZ_ORACION_2.mp4,Yo vi diez sordos en un colegio nada más.
-75,sordo,SORDO,1,DIEZ_ORACION_2/SORDO_5.mp4,DIEZ_ORACION_2.mp4,Yo vi diez sordos en un colegio nada más.
-76,diez,DIEZ,3,DIEZ_ORACION_2/DIEZ_6.mp4,DIEZ_ORACION_2.mp4,Yo vi diez sordos en un colegio nada más.
-77,ahora,AHORA,4,JOVEN_ORACION_1/AHORA_10.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
-78,trabajar,TRABAJAR,4,JOVEN_ORACION_1/TRABAJAR_4.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
-79,mejor,MEJOR,1,JOVEN_ORACION_1/MEJOR_2.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
-80,disculpa,DISCULPA,2,JOVEN_ORACION_1/DISCULPA_6.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
-81,joven,JOVEN,3,JOVEN_ORACION_1/JOVEN_8.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
-82,decir,DECIR,11,JOVEN_ORACION_1/DECIR_1.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
-83,ir,IR,23,JOVEN_ORACION_1/IR_3.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
-84,estudiar,ESTUDIAR,3,JOVEN_ORACION_1/ESTUDIAR_9.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
-85,embarazo,EMBARAZO,1,FREGADO_ORACION_1/EMBARAZO_2.mp4,FREGADO_ORACION_1.mp4,Estoy fregada con mi embarazo
-86,fregado,FREGADO,1,FREGADO_ORACION_1/FREGADO_1.mp4,FREGADO_ORACION_1.mp4,Estoy fregada con mi embarazo
-87,entender,ENTENDER,2,ENTENDER_ORACION_2/ENTENDER_3.mp4,ENTENDER_ORACION_2.mp4,"Atenta, por favor. Entiendelo."
-88,atencion,ATENCION,1,ENTENDER_ORACION_2/ATENCION_2.mp4,ENTENDER_ORACION_2.mp4,"Atenta, por favor. Entiendelo."
-89,helado,HELADO,1,CALOR_ORACION_1/HELADO_5.mp4,CALOR_ORACION_1.mp4,"Pucha, yo quiero helado, ya salió el sol y hace calor."
-90,calor,CALOR,3,CALOR_ORACION_1/CALOR_8.mp4,CALOR_ORACION_1.mp4,"Pucha, yo quiero helado, ya salió el sol y hace calor."
-91,querer,QUERER,7,CALOR_ORACION_1/QUERER_3.mp4,CALOR_ORACION_1.mp4,"Pucha, yo quiero helado, ya salió el sol y hace calor."
-92,pucha,PUCHA,1,CALOR_ORACION_1/PUCHA_1.mp4,CALOR_ORACION_1.mp4,"Pucha, yo quiero helado, ya salió el sol y hace calor."
-93,sol,SOL,3,CALOR_ORACION_1/SOL_7.mp4,CALOR_ORACION_1.mp4,"Pucha, yo quiero helado, ya salió el sol y hace calor."
-94,no,NO,10,IGUAL_ORACION_3/NO_3.mp4,IGUAL_ORACION_3.mp4," ¿Voy sola? No, igual me acompañas caminando "
-95,igual,IGUAL,14,IGUAL_ORACION_3/IGUAL_7.mp4,IGUAL_ORACION_3.mp4," ¿Voy sola? No, igual me acompañas caminando "
-96,alla,ALLA,1,ALLA_ORACION_1/ALLA_7.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
-97,ahi,AHI,6,ALLA_ORACION_1/AHI_8.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
-98,donde,DONDE,10,ALLA_ORACION_1/DONDE_6.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
-99,hijo,HIJO,4,ALLA_ORACION_1/HIJO_5.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
-100,buscar,BUSCAR,7,ALLA_ORACION_1/BUSCAR_3.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
-101,cambiar,CAMBIAR-ROPA,1,AHORA_ORACION_1/CAMBIAR-ROPA_3.mp4,AHORA_ORACION_1.mp4,Ahora me cambio la ropa.
-102,paquete,PAQUETE,1,CIEN_ORACION_1/PAQUETE_1.mp4,CIEN_ORACION_1.mp4,"¿A cuánto está este paquete? está cien, a cien."
-103,brujeria,BRUJERIA,1,BRUJERIA_ORACION_1/BRUJERIA_2.mp4,BRUJERIA_ORACION_1.mp4,Sé cómo hacer la brujería.
-104,desparecer,DESPARECER,2,DESAPARECER_ORACION_2/DESPARECER_4.mp4,DESAPARECER_ORACION_2.mp4,Ví desaparecer un bote.
-105,bote,BOTE,6,DESAPARECER_ORACION_2/BOTE_3.mp4,DESAPARECER_ORACION_2.mp4,Ví desaparecer un bote.
-106,hoy,HOY,7,JOVEN_ORACION_2/HOY_6.mp4,JOVEN_ORACION_2.mp4,"No debo pensar en el futuro sino de presente, como soy joven necesito pensar, tener mi libertad y ser persona social."
-107,necesitar,NECESITAR,2,JOVEN_ORACION_2/NECESITAR_8.mp4,JOVEN_ORACION_2.mp4,"No debo pensar en el futuro sino de presente, como soy joven necesito pensar, tener mi libertad y ser persona social."
-108,pensar,PENSAR,6,JOVEN_ORACION_2/PENSAR_5.mp4,JOVEN_ORACION_2.mp4,"No debo pensar en el futuro sino de presente, como soy joven necesito pensar, tener mi libertad y ser persona social."
-109,tiempo,TIEMPO,6,JOVEN_ORACION_2/TIEMPO_11.mp4,JOVEN_ORACION_2.mp4,"No debo pensar en el futuro sino de presente, como soy joven necesito pensar, tener mi libertad y ser persona social."
-110,interactuar,INTERACTUAR,2,JOVEN_ORACION_2/INTERACTUAR_13.mp4,JOVEN_ORACION_2.mp4,"No debo pensar en el futuro sino de presente, como soy joven necesito pensar, tener mi libertad y ser persona social."
-111,libre,LIBRE,1,JOVEN_ORACION_2/LIBRE_12.mp4,JOVEN_ORACION_2.mp4,"No debo pensar en el futuro sino de presente, como soy joven necesito pensar, tener mi libertad y ser persona social."
-112,futuro,FUTURO,5,JOVEN_ORACION_2/FUTURO_3.mp4,JOVEN_ORACION_2.mp4,"No debo pensar en el futuro sino de presente, como soy joven necesito pensar, tener mi libertad y ser persona social."
-113,encontrar,ENCONTRAR,4,ENCONTRAR_ORACION_2/ENCONTRAR_3.mp4,ENCONTRAR_ORACION_2.mp4,"Mira, nos encontramos por ese colegio."
-114,helicoptero,HELICOPTERO,1,HELICOPTERO_ORACION_1/HELICOPTERO_1_1.mp4,HELICOPTERO_ORACION_1.mp4,Dos helicópteros se cruzan en el cielo
-115,cruzar,CRUZAR-EL-CIELO,1,HELICOPTERO_ORACION_1/CRUZAR-EL-CIELO_2.mp4,HELICOPTERO_ORACION_1.mp4,Dos helicópteros se cruzan en el cielo
-116,anillo,ANILLO,2,CAJA_ORACION_3/ANILLO_6.mp4,CAJA_ORACION_3.mp4,En una caja pequeña guardo aretes y el anillo.
-117,arete,ARETE,3,CAJA_ORACION_3/ARETE_2.mp4,CAJA_ORACION_3.mp4,En una caja pequeña guardo aretes y el anillo.
-118,caja,CAJA-PEQUEÑA,1,CAJA_ORACION_3/CAJA-PEQUEÑA_1.mp4,CAJA_ORACION_3.mp4,En una caja pequeña guardo aretes y el anillo.
-119,fundar,FUNDAR,2,FUNDAR_ORACION_2/FUNDAR_5.mp4,FUNDAR_ORACION_2.mp4,Aquí es donde se fundó la universidad hace mucho.
-120,lugar,LUGAR,4,FUNDAR_ORACION_2/LUGAR_1.mp4,FUNDAR_ORACION_2.mp4,Aquí es donde se fundó la universidad hace mucho.
-121,pasado,PASADO,3,FUNDAR_ORACION_2/PASADO_4.mp4,FUNDAR_ORACION_2.mp4,Aquí es donde se fundó la universidad hace mucho.
-122,ix,IX,4,FUNDAR_ORACION_2/IX_1_6.mp4,FUNDAR_ORACION_2.mp4,Aquí es donde se fundó la universidad hace mucho.
-123,universidad,UNIVERSIDAD,2,FUNDAR_ORACION_2/UNIVERSIDAD_2.mp4,FUNDAR_ORACION_2.mp4,Aquí es donde se fundó la universidad hace mucho.
-124,huevo,HUEVO,4,COMPRAR_ORACION_1/HUEVO_4.mp4,COMPRAR_ORACION_1.mp4,"Ya compré pan y huevo, me lo llevo."
-125,pan,PAN,5,COMPRAR_ORACION_1/PAN_3.mp4,COMPRAR_ORACION_1.mp4,"Ya compré pan y huevo, me lo llevo."
-126,llevar,LLEVAR,2,COMPRAR_ORACION_1/LLEVAR_6.mp4,COMPRAR_ORACION_1.mp4,"Ya compré pan y huevo, me lo llevo."
-127,dentro,DENTRO,1,DENTRO_ORACION_1/DENTRO_4.mp4,DENTRO_ORACION_1.mp4,Yo vi un gato ahí dentro
-128,gato,GATO,4,DENTRO_ORACION_1/GATO_5.mp4,DENTRO_ORACION_1.mp4,Yo vi un gato ahí dentro
-129,ingresar,INGRESAR,1,FELIZ_ORACION_1/INGRESAR_4.mp4,FELIZ_ORACION_1.mp4,Estoy feliz porque termino de ingresar a la universidad. /Estoy feliz por haber ingresado a la universidad.
-130,clase,CLASE,2,EMPEZAR_ORACION_1/CLASE_3.mp4,EMPEZAR_ORACION_1.mp4,"Miren, ya empezó la clase."
-131,empezar,EMPEZAR,3,EMPEZAR_ORACION_1/EMPEZAR_4.mp4,EMPEZAR_ORACION_1.mp4,"Miren, ya empezó la clase."
-132,casar él,CASARSE,1,FUTURO_ORACION_1/CASARSE_3.mp4,FUTURO_ORACION_1.mp4,Me casaré.
-133,perro,PERRO,3,DORMIR_ORACION_2/PERRO_2.mp4,DORMIR_ORACION_2.mp4,Mi perro durmió profundamente
-134,mi,MI,18,DORMIR_ORACION_2/MI_1.mp4,DORMIR_ORACION_2.mp4,Mi perro durmió profundamente
-135,agarrar,AGARRAR-BOTELLA,2,CUARENTA_ORACION_2/AGARRAR-BOTELLA_1.mp4,CUARENTA_ORACION_2.mp4,"Agarro la botella de vino que es fino, está a 40, lo miro y lo dejo."
-136,cuarenta,CUARENTA,2,CUARENTA_ORACION_2/CUARENTA_4.mp4,CUARENTA_ORACION_2.mp4,"Agarro la botella de vino que es fino, está a 40, lo miro y lo dejo."
-137,vino,VINO,1,CUARENTA_ORACION_2/VINO_2.mp4,CUARENTA_ORACION_2.mp4,"Agarro la botella de vino que es fino, está a 40, lo miro y lo dejo."
-138,fino,FINO,2,CUARENTA_ORACION_2/FINO_3.mp4,CUARENTA_ORACION_2.mp4,"Agarro la botella de vino que es fino, está a 40, lo miro y lo dejo."
-139,colocar,COLOCAR-BOTELLA,1,CUARENTA_ORACION_2/COLOCAR-BOTELLA_6.mp4,CUARENTA_ORACION_2.mp4,"Agarro la botella de vino que es fino, está a 40, lo miro y lo dejo."
-140,uy,UY,4,ALTO_ORACION_1/UY_6.mp4,ALTO_ORACION_1.mp4,He visto a un hombre muy alto.
-141,mucho,MUY-ALTO,1,ALTO_ORACION_1/MUY-ALTO_5.mp4,ALTO_ORACION_1.mp4,He visto a un hombre muy alto.
-142,cerrar,CERRAR-CIERRE,1,CARGAR_ORACION_1/CERRAR-CIERRE_6.mp4,CARGAR_ORACION_1.mp4,"Guardo varios libros, cierro la mochila, la cargo y está pesada."
-143,cargar,CARGAR-MOCHILA,1,CARGAR_ORACION_1/CARGAR-MOCHILA_8.mp4,CARGAR_ORACION_1.mp4,"Guardo varios libros, cierro la mochila, la cargo y está pesada."
-144,levantar,LEVANTAR,1,CARGAR_ORACION_1/LEVANTAR_7.mp4,CARGAR_ORACION_1.mp4,"Guardo varios libros, cierro la mochila, la cargo y está pesada."
-145,sacar,SACAR,1,GORRO_ORACION_2/SACAR_3.mp4,GORRO_ORACION_2.mp4,"Cuando descansaba, había mucho sol y puse una gorro de línea clásica para taparlo."
-146,gorro,GORRO,3,GORRO_ORACION_2/GORRO_4.mp4,GORRO_ORACION_2.mp4,"Cuando descansaba, había mucho sol y puse una gorro de línea clásica para taparlo."
-147,mucho,MUCHO-SOL,1,GORRO_ORACION_2/MUCHO-SOL_2.mp4,GORRO_ORACION_2.mp4,"Cuando descansaba, había mucho sol y puse una gorro de línea clásica para taparlo."
-148,descansar,DESCANSAR,1,GORRO_ORACION_2/DESCANSAR_1.mp4,GORRO_ORACION_2.mp4,"Cuando descansaba, había mucho sol y puse una gorro de línea clásica para taparlo."
-149,persiana,PERSIANA,2,CORTINA_ORACION_2/PERSIANA_4.mp4,CORTINA_ORACION_2.mp4,"Veo a la cortina, que no lo veo ahí por la cortina."
-150,fortachon,FORTACHON,3,FORTACHON_ORACION_2/FORTACHON_2.mp4,FORTACHON_ORACION_2.mp4,"Mira que soy fortachón, mi brazo."
-151,demostrar,DEMOSTRAR,1,FORTACHON_ORACION_2/DEMOSTRAR_3.mp4,FORTACHON_ORACION_2.mp4,"Mira que soy fortachón, mi brazo."
-152,bien,BIEN,10,HOLA_ORACION_2/BIEN_8.mp4,HOLA_ORACION_2.mp4,"Yo estaba escribiendo, me volteo y veo a una persona. Nos saludamos, nos abrazamos, me dice que está bien y le digo que estoy bien"
-153,hola,HOLA,4,HOLA_ORACION_2/HOLA_3.mp4,HOLA_ORACION_2.mp4,"Yo estaba escribiendo, me volteo y veo a una persona. Nos saludamos, nos abrazamos, me dice que está bien y le digo que estoy bien"
-154,abrazar,ABRAZAR,1,HOLA_ORACION_2/ABRAZAR_5.mp4,HOLA_ORACION_2.mp4,"Yo estaba escribiendo, me volteo y veo a una persona. Nos saludamos, nos abrazamos, me dice que está bien y le digo que estoy bien"
-155,escribir,ESCRIBIR,5,HOLA_ORACION_2/ESCRIBIR_2.mp4,HOLA_ORACION_2.mp4,"Yo estaba escribiendo, me volteo y veo a una persona. Nos saludamos, nos abrazamos, me dice que está bien y le digo que estoy bien"
-156,beso,BESO,2,HOLA_ORACION_2/BESO_6.mp4,HOLA_ORACION_2.mp4,"Yo estaba escribiendo, me volteo y veo a una persona. Nos saludamos, nos abrazamos, me dice que está bien y le digo que estoy bien"
-157,lent,LENTES,2,LENTES_ORACION_1/LENTES_4.mp4,LENTES_ORACION_1.mp4,"Oye, ¿ Dónde está mi lente?"
-158,limpiar,LIMPIAR,2,FIN_ORACION_1/LIMPIAR_2.mp4,FIN_ORACION_1.mp4,Termino de limpiar.
-159,fin,FIN,4,FIN_ORACION_1/FIN_3.mp4,FIN_ORACION_1.mp4,Termino de limpiar.
-160,via,VIA-DOBLE-SENTIDO,8,BUS_ORACION_1/VIA-DOBLE-SENTIDO_2.mp4,BUS_ORACION_1.mp4,Un bus va por la vía de doble sentido.
-161,bus,BUS,2,BUS_ORACION_1/BUS_1.mp4,BUS_ORACION_1.mp4,Un bus va por la vía de doble sentido.
-162,oficina,OFICINA,2,PUERTA_ORACION_1/OFICINA_5.mp4,PUERTA_ORACION_1.mp4,"Camino hacia la puerta, la abro y entro a la oficina."
-163,abrir,ABRIR-PUERTA,1,PUERTA_ORACION_1/ABRIR-PUERTA_3.mp4,PUERTA_ORACION_1.mp4,"Camino hacia la puerta, la abro y entro a la oficina."
-164,entrar,ENTRAR-PERSONA,1,PUERTA_ORACION_1/ENTRAR-PERSONA_4.mp4,PUERTA_ORACION_1.mp4,"Camino hacia la puerta, la abro y entro a la oficina."
-165,doblar,DOBLAR,2,CAJON_ORACION_1/DOBLAR_2.mp4,CAJON_ORACION_1.mp4,"Doblé la ropa, ya la guardé y cerré el cajón."
-166,cerrar,CERRAR-CAJÓN,2,CAJON_ORACION_1/CERRAR-CAJÓN_5.mp4,CAJON_ORACION_1.mp4,"Doblé la ropa, ya la guardé y cerré el cajón."
-167,ropa,ROPA,2,CAJON_ORACION_1/ROPA_1.mp4,CAJON_ORACION_1.mp4,"Doblé la ropa, ya la guardé y cerré el cajón."
-168,huaraz,HUARAZ,1,FRIO_ORACION_3/HUARAZ_1.mp4,FRIO_ORACION_3.mp4,La temperatura en Huaraz está muy baja.
-169,baja,BAJA-TEMPERATURA,1,FRIO_ORACION_3/BAJA-TEMPERATURA_2.mp4,FRIO_ORACION_3.mp4,La temperatura en Huaraz está muy baja.
-170,no,NO-SABER,3,ATRAPAR_ORACION_2/NO-SABER_8.mp4,ATRAPAR_ORACION_2.mp4,Hoy yo lo atrapé junto a una mujer. ¿Quién? No sé.
-171,junto,JUNTO,1,ATRAPAR_ORACION_2/JUNTO_5.mp4,ATRAPAR_ORACION_2.mp4,Hoy yo lo atrapé junto a una mujer. ¿Quién? No sé.
-172,mujer,MUJER,1,ATRAPAR_ORACION_2/MUJER_6.mp4,ATRAPAR_ORACION_2.mp4,Hoy yo lo atrapé junto a una mujer. ¿Quién? No sé.
-173,contricant,CONTRICANTES,1,CONTAR-NUMEROS_ORACION_3/CONTRICANTES_1.mp4,CONTAR-NUMEROS_ORACION_3.mp4,"Oye, el de allá ¿Cuántos puntos se llevaron los contricantes? Ah, que bien!"
-174,contar,CONTAR-MANUAL,3,CONTAR-NUMEROS_ORACION_3/CONTAR-MANUAL_2.mp4,CONTAR-NUMEROS_ORACION_3.mp4,"Oye, el de allá ¿Cuántos puntos se llevaron los contricantes? Ah, que bien!"
-175,adivino,ADIVINO,1,ADIVINO_ORACION_1/ADIVINO_5.mp4,ADIVINO_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
-176,diecinueve,DIECINUEVE,3,DIECINUEVE_ORACION_2/DIECINUEVE_3.mp4,DIECINUEVE_ORACION_2.mp4,¿Cuántos gatos hay ahí? Hay 19
-177,matrimonio,MATRIMONIO,2,MATRIMONIO_ORACION_1/MATRIMONIO_2.mp4,MATRIMONIO_ORACION_1.mp4,¿Ya te comprometiste en matrimonio?
-178,perder,PERDER,1,PERDER_ORACION_1/PERDER_3.mp4,PERDER_ORACION_1.mp4,Mi llave está perdida.
-179,llave,LLAVE,3,PERDER_ORACION_1/LLAVE_2.mp4,PERDER_ORACION_1.mp4,Mi llave está perdida.
-180,mama,MAMA,5,IR_ORACION_1/MAMA_2.mp4,IR_ORACION_1.mp4,Mamá ya se fue.
-181,llamar,LLAMAR-LA-ATENCION,1,LO-SIENTO_ORACION_2/LLAMAR-LA-ATENCION_3.mp4,LO-SIENTO_ORACION_2.mp4,"Me molesta y le dí de espalda, me llama insistente y le dije que lo siento pero no."
-182,él,LO-SIENTO,2,LO-SIENTO_ORACION_2/LO-SIENTO_5.mp4,LO-SIENTO_ORACION_2.mp4,"Me molesta y le dí de espalda, me llama insistente y le dije que lo siento pero no."
-183,dar,DAR-LA-ESPALDA,1,LO-SIENTO_ORACION_2/DAR-LA-ESPALDA_2.mp4,LO-SIENTO_ORACION_2.mp4,"Me molesta y le dí de espalda, me llama insistente y le dije que lo siento pero no."
-184,fastidiar,FASTIDIAR,1,LO-SIENTO_ORACION_2/FASTIDIAR_1.mp4,LO-SIENTO_ORACION_2.mp4,"Me molesta y le dí de espalda, me llama insistente y le dije que lo siento pero no."
-185,temprano,TEMPRANO,2,DORMIR_ORACION_1/TEMPRANO_2.mp4,DORMIR_ORACION_1.mp4,Yo duermo temprano
-186,conducir,CONDUCIR,5,CONDUCIR_ORACION_1/CONDUCIR_1.mp4,CONDUCIR_ORACION_1.mp4,Conducía por la vía de doble sentido.
-187,aburrido,ABURRIDO,5,ABURRIDO_ORACION_1/ABURRIDO_4.mp4,ABURRIDO_ORACION_1.mp4,Me aburre salir a trabajar
-188,engañar,ENGAÑAR,2,ENGAÑAR_ORACION_2/ENGAÑAR_3.mp4,ENGAÑAR_ORACION_2.mp4,"Para mí, es fácil engañar."
-189,facil,FACIL,1,ENGAÑAR_ORACION_2/FACIL_2.mp4,ENGAÑAR_ORACION_2.mp4,"Para mí, es fácil engañar."
-190,televisión,TELEVISIÓN,1,HIJO_ORACION_1/TELEVISIÓN_5.mp4,HIJO_ORACION_1.mp4,Yo ví a mi hijo mirar mucho el televisior.
-191,casa,CASA,4,CASA_ORACION_1/CASA_6.mp4,CASA_ORACION_1.mp4,"Cuando termina mi turno, voy caminando a mi casa."
-192,terminar,TERMINAR,4,CASA_ORACION_1/TERMINAR_2.mp4,CASA_ORACION_1.mp4,"Cuando termina mi turno, voy caminando a mi casa."
-193,caminar,CAMINAR,2,CASA_ORACION_1/CAMINAR_5.mp4,CASA_ORACION_1.mp4,"Cuando termina mi turno, voy caminando a mi casa."
-194,engordar,ENGORDAR,1,ENGORDAR_ORACION_1/ENGORDAR_2.mp4,ENGORDAR_ORACION_1.mp4,Tú cambiaste y engordaste
-195,cambiar,CAMBIAR,1,ENGORDAR_ORACION_1/CAMBIAR_1.mp4,ENGORDAR_ORACION_1.mp4,Tú cambiaste y engordaste
-196,chocar,CHOCAR,1,CHOCAR_ORACION_1/CHOCAR_3.mp4,CHOCAR_ORACION_1.mp4,"Yo caminaba y me choqué con alguien, le dije en gesto como pedir disculpa y seguimos nuestro caminos cada uno a lo suyo."
-197,cuidado,CUIDADO,1,CHOCAR_ORACION_1/CUIDADO_4.mp4,CHOCAR_ORACION_1.mp4,"Yo caminaba y me choqué con alguien, le dije en gesto como pedir disculpa y seguimos nuestro caminos cada uno a lo suyo."
-198,cuna,CUNA,3,CUNA_ORACION_2/CUNA_5.mp4,CUNA_ORACION_2.mp4,Vi a una cuna moviendose solito como si el fantasma existiera.
-199,fantasma,FANTASMA,1,CUNA_ORACION_2/FANTASMA_4.mp4,CUNA_ORACION_2.mp4,Vi a una cuna moviendose solito como si el fantasma existiera.
-200,como,COMO,1,CUNA_ORACION_2/COMO_3.mp4,CUNA_ORACION_2.mp4,Vi a una cuna moviendose solito como si el fantasma existiera.
-201,de,DE-ACUERDO,1,IGUAL_ORACION_5/DE-ACUERDO_2.mp4,IGUAL_ORACION_5.mp4,"Conversamos y no estuvimos de acuerdo, entonces no me convenció. Quedamos igual y fin."
-202,viaje,VIAJE,2,CAER_ORACION_2/VIAJE_5.mp4,CAER_ORACION_2.mp4,Yo quiero ir de viaje en carro para ver el atardecer.
-203,carro,CARRO,5,CAER_ORACION_2/CARRO_6.mp4,CAER_ORACION_2.mp4,Yo quiero ir de viaje en carro para ver el atardecer.
-204,estar,ESTAR-BIEN,3,ESTAR-BIEN_ORACION_3/ESTAR-BIEN_1.mp4,ESTAR-BIEN_ORACION_3.mp4,¿Tú estás bien?
-205,despu,DESPUES,5,DESPUES_ORACION_3/DESPUES_1.mp4,DESPUES_ORACION_3.mp4,Después tomo el examen
-206,examen,EXAMEN,2,DESPUES_ORACION_3/EXAMEN_2.mp4,DESPUES_ORACION_3.mp4,Después tomo el examen
-207,doce,DOCE,3,DOCE_ORACION_1/DOCE_5.mp4,DOCE_ORACION_1.mp4,Terminé mi graduación a los 12 años.
-208,graduar él,GRADUARSE,1,DOCE_ORACION_1/GRADUARSE_4.mp4,DOCE_ORACION_1.mp4,Terminé mi graduación a los 12 años.
-209,edad,EDAD,2,DOCE_ORACION_1/EDAD_6.mp4,DOCE_ORACION_1.mp4,Terminé mi graduación a los 12 años.
-210,conyuge,CONYUGE,2,CORNUDO_ORACION_1/CONYUGE_2.mp4,CORNUDO_ORACION_1.mp4,"Oye, ¿Es ella tu esposa? Oh, no puede ser, eres un cornudo."
-211,pais,PAIS,1,DOCE_ORACION_3/PAIS_5.mp4,DOCE_ORACION_3.mp4,Yo viajé en avión a 12 países.
-212,sudar,SUDAR-MUCHO,2,SUDAR_ORACION_2/SUDAR-MUCHO_6.mp4,SUDAR_ORACION_2.mp4,Yo veo a mi amigo sudar mucho.
-213,amigo,AMIGO,5,SUDAR_ORACION_2/AMIGO_2.mp4,SUDAR_ORACION_2.mp4,Yo veo a mi amigo sudar mucho.
-214,dar,DAR,3,DESPUES_ORACION_1/DAR_3.mp4,DESPUES_ORACION_1.mp4,Después te doy
-215,alguno,ALGUNOS,2,ALGUNOS_ORACION_2/ALGUNOS_5.mp4,ALGUNOS_ORACION_2.mp4,"¡Yo había visto un libro aquí!No sé, pero allí hay algunos libros."
-216,comer,COMER,5,HIJO_ORACION_3/COMER_4.mp4,HIJO_ORACION_3.mp4,A mi hijo le encanta comer arroz chaufa
-217,gustar,GUSTAR,2,HIJO_ORACION_3/GUSTAR_3.mp4,HIJO_ORACION_3.mp4,A mi hijo le encanta comer arroz chaufa
-218,arroz,ARROZ-CHAUFA,1,HIJO_ORACION_3/ARROZ-CHAUFA_5.mp4,HIJO_ORACION_3.mp4,A mi hijo le encanta comer arroz chaufa
-219,problema,PROBLEMA,1,ALGUNOS_ORACION_1/PROBLEMA_1.mp4,ALGUNOS_ORACION_1.mp4,"¿Algún problema?No sé, pero para algunos sí."
-220,sobrina,SOBRINA,1,CUNA_ORACION_1/SOBRINA_2.mp4,CUNA_ORACION_1.mp4,Veo a mi sobrina dormida en su cuna.
-221,peru,PERU,1,HISTORIA_ORACION_1/PERU_4.mp4,HISTORIA_ORACION_1.mp4,Estuve leyendo un libro sobre historia del Perú.
-222,leer,LEER,3,HISTORIA_ORACION_1/LEER_2.mp4,HISTORIA_ORACION_1.mp4,Estuve leyendo un libro sobre historia del Perú.
-223,historia,HISTORIA,2,HISTORIA_ORACION_1/HISTORIA_3.mp4,HISTORIA_ORACION_1.mp4,Estuve leyendo un libro sobre historia del Perú.
-224,dibujar,DIBUJAR,2,IDEA_ORACION_1/DIBUJAR_6.mp4,IDEA_ORACION_1.mp4,"No sabía qué dibujar, estuve pensando, tuve una idea, la dibujé y di el dibujo."
-225,idea,IDEA,3,IDEA_ORACION_1/IDEA_2_5.mp4,IDEA_ORACION_1.mp4,"No sabía qué dibujar, estuve pensando, tuve una idea, la dibujé y di el dibujo."
-226,faltar,FALTAR,4,FALTAR_ORACION_2/FALTAR_5.mp4,FALTAR_ORACION_2.mp4,"Leí el nombre de la persona y me di cuenta que no vino, entonces faltó."
-227,venir,VENIR,1,FALTAR_ORACION_2/VENIR_2.mp4,FALTAR_ORACION_2.mp4,"Leí el nombre de la persona y me di cuenta que no vino, entonces faltó."
-228,nada,NADA,3,FALTAR_ORACION_2/NADA_4.mp4,FALTAR_ORACION_2.mp4,"Leí el nombre de la persona y me di cuenta que no vino, entonces faltó."
-229,vida,VIDA,1,CONTAR_ORACION_2/VIDA_5.mp4,CONTAR_ORACION_2.mp4,Papá dijo que él me contará de su vida.
-230,su,SU,1,CONTAR_ORACION_2/SU_4.mp4,CONTAR_ORACION_2.mp4,Papá dijo que él me contará de su vida.
-231,papa,PAPA,3,CONTAR_ORACION_2/PAPA_1.mp4,CONTAR_ORACION_2.mp4,Papá dijo que él me contará de su vida.
-232,contar,CONTAR,4,CONTAR_ORACION_2/CONTAR_3.mp4,CONTAR_ORACION_2.mp4,Papá dijo que él me contará de su vida.
-233,pero,PERO,1,DIEZ_ORACION_1/PERO_4.mp4,DIEZ_ORACION_1.mp4,Yo vi muchos niños pero hay pocos como 10.
-234,niño,NIÑO,6,DIEZ_ORACION_1/NIÑO_7.mp4,DIEZ_ORACION_1.mp4,Yo vi muchos niños pero hay pocos como 10.
-235,poco,POCO,2,DIEZ_ORACION_1/POCO_5.mp4,DIEZ_ORACION_1.mp4,Yo vi muchos niños pero hay pocos como 10.
-236,sucio,SUCIO,1,CUERPO_ORACION_1/SUCIO_3.mp4,CUERPO_ORACION_1.mp4,Mi cuerpo está sucio. 
-237,cuerpo,CUERPO,2,CUERPO_ORACION_1/CUERPO_2.mp4,CUERPO_ORACION_1.mp4,Mi cuerpo está sucio. 
-238,persona,PERSONA-PEQUEÑA,4,PERSONA-PEQUEÑA_ORACION_1/PERSONA-PEQUEÑA_1.mp4,PERSONA-PEQUEÑA_ORACION_1.mp4,Él es una persona pequeña.
-239,sabado,SABADO,1,HOY_ORACION_1/SABADO_2.mp4,HOY_ORACION_1.mp4,Hoy es sábado.
-240,dieciocho,DIECIOCHO,3,DIECIOCHO_ORACION_3/DIECIOCHO_4.mp4,DIECIOCHO_ORACION_3.mp4,¿Cuántos huevos hay ahí? Hay dieciocho
-241,combi,COMBI,1,COMBI_ORACION_1/COMBI_1.mp4,COMBI_ORACION_1.mp4,Se cruzan dos combis en la pista.
-242,grande,GRANDE,7,CAMION_ORACION_1/GRANDE_2.mp4,CAMION_ORACION_1.mp4,Un carro grande va por una vía de doble sentido.
-243,tarde,TARDE,1,ESPERAR_ORACION_2/TARDE_2.mp4,ESPERAR_ORACION_2.mp4,"Oye te demoraste mucho, pues esperé muchísimo."
-244,vestir,VESTIR,1,IGUAL_ORACION_2/VESTIR_1.mp4,IGUAL_ORACION_2.mp4,Estamos vestidos igual
-245,cruzar,CRUZAR-BOTE,3,BARCO_ORACION_1/CRUZAR-BOTE_3.mp4,BARCO_ORACION_1.mp4,Los barcos se cruzan.
-246,zapato,ZAPATO,2,DEBAJO_ORACION_2/ZAPATO_3.mp4,DEBAJO_ORACION_2.mp4,Estoy buscando mis zapatos y no encontré nada. - Está debajo de ahí.
-247,debajo,DEBAJO,3,DEBAJO_ORACION_2/DEBAJO_5.mp4,DEBAJO_ORACION_2.mp4,Estoy buscando mis zapatos y no encontré nada. - Está debajo de ahí.
-248,desaparecer,DESAPARECER,1,DEBAJO_ORACION_3/DESAPARECER_4.mp4,DEBAJO_ORACION_3.mp4,Busco aretes que está desaparecido. -Está debajo de ahí.
-249,catorce,CATORCE,3,CATORCE_ORACION_1/CATORCE_8.mp4,CATORCE_ORACION_1.mp4,"Me falta poco para mi cumpleanos, cuando termine ya voy a cumplir 14 años de edad."
-250,cumpleaños,CUMPLEAÑOS,1,CATORCE_ORACION_1/CUMPLEAÑOS_4.mp4,CATORCE_ORACION_1.mp4,"Me falta poco para mi cumpleanos, cuando termine ya voy a cumplir 14 años de edad."
-251,falta,FALTA,3,CATORCE_ORACION_1/FALTA_2.mp4,CATORCE_ORACION_1.mp4,"Me falta poco para mi cumpleanos, cuando termine ya voy a cumplir 14 años de edad."
-252,dame,DAME,2,AHI_ORACION_1/DAME_2.mp4,AHI_ORACION_1.mp4,"Ahí, dame el pan de ahí, ahí."
-253,pez,PEZ,1,DIECINUEVE_ORACION_1/PEZ_1.mp4,DIECINUEVE_ORACION_1.mp4,Ahí están diecinueve peces
-254,esconder,ESCONDER,1,ESCONDER_ORACION_1/ESCONDER_3.mp4,ESCONDER_ORACION_1.mp4,"Mira, tú, escóndete, por favor."
-255,ciudad,CIUDAD,1,CIUDAD_ORACION_1/CIUDAD_3.mp4,CIUDAD_ORACION_1.mp4,Yo viajo desde lejos y llego a esta hermosa ciudad.
-256,hermosa,HERMOSA,1,CIUDAD_ORACION_1/HERMOSA_4.mp4,CIUDAD_ORACION_1.mp4,Yo viajo desde lejos y llego a esta hermosa ciudad.
-257,caja,CAJA,5,CONTAR-NUMEROS_ORACION_2/CAJA_1.mp4,CONTAR-NUMEROS_ORACION_2.mp4,¿Estos paquete cuantos hay por ahí?
-258,esos,ESOS,1,CONTAR-NUMEROS_ORACION_2/ESOS_3.mp4,CONTAR-NUMEROS_ORACION_2.mp4,¿Estos paquete cuantos hay por ahí?
-259,cual,CUAL,2,CUAL_ORACION_1/CUAL_5.mp4,CUAL_ORACION_1.mp4,"Quieres zapatos, te gusta este y este, ¿Cuál de ellos?"
-260,primero,PRIMERO-DE-PRIMARIA,1,CATORCE_ORACION_2/PRIMERO-DE-PRIMARIA_7.mp4,CATORCE_ORACION_2.mp4,Yo fui a ver a esta clase del primer grado de primaria que tiene 14 niños.
-261,sirena,SIRENA,1,AMBULANCIA_ORACION_1/SIRENA_2.mp4,AMBULANCIA_ORACION_1.mp4,La ambulancia va por una vía de doble sentido.
-262,tia,TIA,1,DORMIR_ORACION_3/TIA_2.mp4,DORMIR_ORACION_3.mp4,Mi tía dormía profundamente
-263,silla,SILLA,4,DIECISEIS_ORACION_1/SILLA_1.mp4,DIECISEIS_ORACION_1.mp4,¿Cuántas sillas hay ahí? Ya están 16 sillas
-264,dieciseis,DIECISEIS,3,DIECISEIS_ORACION_1/DIECISEIS_4.mp4,DIECISEIS_ORACION_1.mp4,¿Cuántas sillas hay ahí? Ya están 16 sillas
-265,cama,CAMA,2,CAMA_ORACION_1/CAMA_7.mp4,CAMA_ORACION_1.mp4,"Ya es mi hora de dormir, me voy a la cama."
-266,preguntar,PREGUNTAR,3,FUNDAR_ORACION_1/PREGUNTAR_2.mp4,FUNDAR_ORACION_1.mp4,"Eso... le hice una interrogación acerca de esa casa, lo que me hizo dar cuenta que esa casa fue fundada hace mucho mientras lo escribía."
-267,luego,LUEGO,2,LUEGO_ORACION_2/LUEGO_1.mp4,LUEGO_ORACION_2.mp4,Luego puedes ir al baño.
-268,baño,BAÑO,1,LUEGO_ORACION_2/BAÑO_2.mp4,LUEGO_ORACION_2.mp4,Luego puedes ir al baño.
-269,tres,TRES,1,CONTAR-NUMEROS_ORACION_4/TRES_3.mp4,CONTAR-NUMEROS_ORACION_4.mp4,"¿Cuántas paquetes deseas? Tres, ahi tiene. "
-270,entregar,ENTREGAR,1,CONTAR-NUMEROS_ORACION_4/ENTREGAR_4.mp4,CONTAR-NUMEROS_ORACION_4.mp4,"¿Cuántas paquetes deseas? Tres, ahi tiene. "
-271,bicicleta,BICICLETA,1,BICICLETA_ORACION_1/BICICLETA_1.mp4,BICICLETA_ORACION_1.mp4,Las bicicletas se cruzan.
-272,cruzar,CRUZAR-BICICLETA,1,BICICLETA_ORACION_1/CRUZAR-BICICLETA_2.mp4,BICICLETA_ORACION_1.mp4,Las bicicletas se cruzan.
-273,polo,POLO,1,CUARENTA_ORACION_1/POLO_3.mp4,CUARENTA_ORACION_1.mp4,"Agarro el polo y lo veo bonito. ¿Cuántos está este polo? a 40, pasu."
-274,bombero,BOMBERO,2,CARRO-BOMBERO_ORACION_1/BOMBERO_2.mp4,CARRO-BOMBERO_ORACION_1.mp4,Un carro de bomberos va por una vía de doble sentido.
-275,manguera,MANGUERA,2,CARRO-BOMBERO_ORACION_1/MANGUERA_3.mp4,CARRO-BOMBERO_ORACION_1.mp4,Un carro de bomberos va por una vía de doble sentido.
-276,nueve,NUEVE,1,ENCONTRAR_ORACION_1/NUEVE_4.mp4,ENCONTRAR_ORACION_1.mp4,"Mira, nos encontramos a las 9, por favor."
-277,que,QUE,7,MALO_ORACION_1/QUE_4.mp4,MALO_ORACION_1.mp4,"Fui el testigo de como la mala mamá que fue aspera al dar el plato a un niño, y el sorprendido y dolido."
-278,malo,MALO,2,MALO_ORACION_1/MALO_7.mp4,MALO_ORACION_1.mp4,"Fui el testigo de como la mala mamá que fue aspera al dar el plato a un niño, y el sorprendido y dolido."
-279,tirar,TIRAR,1,MALO_ORACION_1/TIRAR_2.mp4,MALO_ORACION_1.mp4,"Fui el testigo de como la mala mamá que fue aspera al dar el plato a un niño, y el sorprendido y dolido."
-280,iglesia,IGLESIA,1,CONYUGE_ORACION_1/IGLESIA_4.mp4,CONYUGE_ORACION_1.mp4,Yo me voy a la iglesia a firmar y estar casada.
-281,desear,DESEAR,1,BOLA-DE-CRISTAL_ORACION_1/DESEAR_5.mp4,BOLA-DE-CRISTAL_ORACION_1.mp4,¿Qué me dice la bola de cristal? Tengo deseo de saber sobre mi futuro.
-282,bola,BOLA-DE-CRISTAL,1,BOLA-DE-CRISTAL_ORACION_1/BOLA-DE-CRISTAL_2.mp4,BOLA-DE-CRISTAL_ORACION_1.mp4,¿Qué me dice la bola de cristal? Tengo deseo de saber sobre mi futuro.
-283,mandar,MANDAR,1,MANDAR_ORACION_1/MANDAR_5.mp4,MANDAR_ORACION_1.mp4,"Oye, por favor ve por allá y te mando a barrer."
-284,barrer,BARRER,1,MANDAR_ORACION_1/BARRER_6.mp4,MANDAR_ORACION_1.mp4,"Oye, por favor ve por allá y te mando a barrer."
-285,dinosaurio,DINOSAURIO,1,IMPOSIBLE_ORACION_1/DINOSAURIO_8.mp4,IMPOSIBLE_ORACION_1.mp4,"Yo le dije que...¿has oído del gran animal como el dinsaurio? Dijo ""imposible, no existe aquí en la tierra""."
-286,imposible,IMPOSIBLE,3,IMPOSIBLE_ORACION_1/IMPOSIBLE_9.mp4,IMPOSIBLE_ORACION_1.mp4,"Yo le dije que...¿has oído del gran animal como el dinsaurio? Dijo ""imposible, no existe aquí en la tierra""."
-287,mundo,MUNDO,1,IMPOSIBLE_ORACION_1/MUNDO_11.mp4,IMPOSIBLE_ORACION_1.mp4,"Yo le dije que...¿has oído del gran animal como el dinsaurio? Dijo ""imposible, no existe aquí en la tierra""."
-288,animal,ANIMAL,1,IMPOSIBLE_ORACION_1/ANIMAL_5.mp4,IMPOSIBLE_ORACION_1.mp4,"Yo le dije que...¿has oído del gran animal como el dinsaurio? Dijo ""imposible, no existe aquí en la tierra""."
-289,no,NO-HABER,1,IMPOSIBLE_ORACION_1/NO-HABER_10.mp4,IMPOSIBLE_ORACION_1.mp4,"Yo le dije que...¿has oído del gran animal como el dinsaurio? Dijo ""imposible, no existe aquí en la tierra""."
-290,bailar,BAILAR,1,ABURRIDO_ORACION_3/BAILAR_3.mp4,ABURRIDO_ORACION_3.mp4,¿Yo ir a bailar? ¡Qué aburrido!
-291,hospital,HOSPITAL,1,ESTAR-BIEN_ORACION_2/HOSPITAL_2.mp4,ESTAR-BIEN_ORACION_2.mp4,¿Tu abuelo está en el hospital?Él está bien. 
-292,abuelo,ABUELO,1,ESTAR-BIEN_ORACION_2/ABUELO_1.mp4,ESTAR-BIEN_ORACION_2.mp4,¿Tu abuelo está en el hospital?Él está bien. 
-293,grabar,GRABAR,2,DESPUES_ORACION_4/GRABAR_2.mp4,DESPUES_ORACION_4.mp4,Después lo grabo
-294,sonar,SONAR-TELEFONO,1,TELEFONO_ORACION_2/SONAR-TELEFONO_2.mp4,TELEFONO_ORACION_2.mp4,Veo que está ocupado para que atienda al telefono.
-295,ocupado,OCUPADO,1,TELEFONO_ORACION_2/OCUPADO_1.mp4,TELEFONO_ORACION_2.mp4,Veo que está ocupado para que atienda al telefono.
-296,telefono,TELEFONO,2,TELEFONO_ORACION_2/TELEFONO_3.mp4,TELEFONO_ORACION_2.mp4,Veo que está ocupado para que atienda al telefono.
-297,sentir,SENTIR,1,FRIO_ORACION_2/SENTIR_1.mp4,FRIO_ORACION_2.mp4,Siento frío
-298,ojo,OJOS,1,DOCE_ORACION_2/OJOS_6.mp4,DOCE_ORACION_2.mp4,"Yo lo vi, es imposibile. Creo que existe el que tiene 12 ojos."
-299,haber,HABER,2,DOCE_ORACION_2/HABER_7.mp4,DOCE_ORACION_2.mp4,"Yo lo vi, es imposibile. Creo que existe el que tiene 12 ojos."
-302,lindo,LINDO,1,FORTACHON_ORACION_1/LINDO_3.mp4,FORTACHON_ORACION_1.mp4,Se ve lindo y fortachón.
-303,mucho,MUCHO-TIEMPO,2,SUDAR_ORACION_1/MUCHO-TIEMPO_3.mp4,SUDAR_ORACION_1.mp4,"Yo jugué mucho tiempo, ya está atardeciendo y ya estoy sudando."
-304,jugar,JUGAR,4,SUDAR_ORACION_1/JUGAR_2.mp4,SUDAR_ORACION_1.mp4,"Yo jugué mucho tiempo, ya está atardeciendo y ya estoy sudando."
-307,enviar,ENVIAR,1,MANDAR_ORACION_2/ENVIAR_3.mp4,MANDAR_ORACION_2.mp4,Pero ya lo mandé.
-308,fiesta,FIESTA,1,HOY_ORACION_2/FIESTA_4.mp4,HOY_ORACION_2.mp4,Hoy iré a una fiesta
-309,presente,PRESENTE,1,PRESENTE_ORACION_1/PRESENTE_5.mp4,PRESENTE_ORACION_1.mp4,¿Qué pasó? -fue él/ella.
-310,qué,QUÉ,1,PRESENTE_ORACION_1/QUÉ_2.mp4,PRESENTE_ORACION_1.mp4,¿Qué pasó? -fue él/ella.
-311,xi,XI,2,PRESENTE_ORACION_1/XI_4.mp4,PRESENTE_ORACION_1.mp4,¿Qué pasó? -fue él/ella.
-312,mono,MONO,1,DIECISEIS_ORACION_2/MONO_2.mp4,DIECISEIS_ORACION_2.mp4,¿Cuántos monos hay? Son 16.
-313,esquina,ESQUINA,1,IR_ORACION_5/ESQUINA_2.mp4,IR_ORACION_5.mp4,Tu ve a la esquina y espérame ahí para encontrarte.
-314,cuando,CUANDO,2,CUANDO_ORACION_2/CUANDO_3.mp4,CUANDO_ORACION_2.mp4,¿Cuándo ingresaremos a ver el partido?
-315,camioneta,CAMIONETA,1,CAMIONETA_ORACION_1/CAMIONETA_2.mp4,CAMIONETA_ORACION_1.mp4,Manejo una camioneta en una vía de doble sentido.
-316,bolsillo,BOLSILLO,1,MUCHO-DINERO_ORACION_1/BOLSILLO_2.mp4,MUCHO-DINERO_ORACION_1.mp4,"Yo, en el bolsillo, tengo mucho dinero."
-317,mucho,MUCHO-DINERO,1,MUCHO-DINERO_ORACION_1/MUCHO-DINERO_4.mp4,MUCHO-DINERO_ORACION_1.mp4,"Yo, en el bolsillo, tengo mucho dinero."
-318,intenso,INTENSO,1,ABURRIDO_ORACION_2/INTENSO_5.mp4,ABURRIDO_ORACION_2.mp4,Yo caminaba aburrido porque hacía un calor intenso.
-319,alto,ALTO,1,PERSONA-PEQUEÑA_ORACION_3/ALTO_2.mp4,PERSONA-PEQUEÑA_ORACION_3.mp4,Yo soy alta y tú eres una persona pequeña.
-320,odiar,ODIAR,1,DECIRME_ORACION_1/ODIAR_2.mp4,DECIRME_ORACION_1.mp4,Me dijo que me odia.
-321,cortina,CORTINA,1,CORTINA_ORACION_1/CORTINA_2.mp4,CORTINA_ORACION_1.mp4,Compramos a ésta cortinas.
-322,visitar,VISITAR,1,IR_ORACION_4/VISITAR_2.mp4,IR_ORACION_4.mp4,Tú irás a visitar a la casa de tu madre.
-323,infiel,INFIEL,1,INFIEL_ORACION_1/INFIEL_6.mp4,INFIEL_ORACION_1.mp4,Es imposible que me hayan dicho que mi enamorado es infiel.
-324,enamorado,ENAMORADO,2,INFIEL_ORACION_1/ENAMORADO_5.mp4,INFIEL_ORACION_1.mp4,Es imposible que me hayan dicho que mi enamorado es infiel.
-325,viejo,VIEJO,1,JOVEN_ORACION_3/VIEJO_4.mp4,JOVEN_ORACION_3.mp4,"Alto ahí, disculpa no soy vieja, soy joven, ¿Qué te pasas?"
-326,traer,TRAER-CAJA,1,CAJA_ORACION_2/TRAER-CAJA_2.mp4,CAJA_ORACION_2.mp4,Tráeme la caja grande y la cargo.
-327,cargar,CARGAR-CAJA,2,CAJA_ORACION_2/CARGAR-CAJA_3.mp4,CAJA_ORACION_2.mp4,Tráeme la caja grande y la cargo.
-328,pelea,PELEA,2,DAR-PASOS_ORACION_1/PELEA_5.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
-329,dos,DOS-PERSONAS,1,DAR-PASOS_ORACION_1/DOS-PERSONAS_10.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
-330,dar,DAR-PASOS,3,DAR-PASOS_ORACION_1/DAR-PASOS_14.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
-331,no,NO-IMPORTAR,1,DAR-PASOS_ORACION_1/NO-IMPORTAR_13.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
-332,cerrar,CERRAR-CAJON,1,CERRAR-CAJON_ORACION_2/CERRAR-CAJON_6.mp4,CERRAR-CAJON_ORACION_2.mp4,"Veo el cajón, lo abro, guardo los libros y al terminar lo cierro."
-333,cargar,CARGAR,1,CAJA_ORACION_1/CARGAR_4.mp4,CAJA_ORACION_1.mp4,En una caja guardo cosas y la cargo. 
-334,celular,CELULAR,1,ENCONTRAR_ORACION_3/CELULAR_4.mp4,ENCONTRAR_ORACION_3.mp4,Yo encontré un celular fino por casualidad
-335,casualidad,CASUALIDAD,1,ENCONTRAR_ORACION_3/CASUALIDAD_2.mp4,ENCONTRAR_ORACION_3.mp4,Yo encontré un celular fino por casualidad
-336,participar,PARTICIPAR,1,IGUAL_ORACION_4/PARTICIPAR_2.mp4,IGUAL_ORACION_4.mp4,"Al participar, alcanzamos la igualdad"
-337,acercar él,ACERCARSE,2,ACERCARSE_ORACION_1/ACERCARSE_1.mp4,ACERCARSE_ORACION_1.mp4,Hoy me encontré a Juan por sorpresa. 
-338,juan,JUAN,1,ACERCARSE_ORACION_1/JUAN_3.mp4,ACERCARSE_ORACION_1.mp4,Hoy me encontré a Juan por sorpresa. 
-339,flaco,FLACO,4,FLACO_ORACION_1/FLACO_2.mp4,FLACO_ORACION_1.mp4,¡Qué sorpresa! Eres flaco.
-340,sorpresa,SORPRESA,1,FLACO_ORACION_1/SORPRESA_1.mp4,FLACO_ORACION_1.mp4,¡Qué sorpresa! Eres flaco.
-341,cuatro,CUATRO,1,CUATRO_ORACION_1/CUATRO_3.mp4,CUATRO_ORACION_1.mp4,Llegaron cuatros mamás para apoyar la enseñanza de la lengua de Seña.
-342,llegar,LLEGAR,1,CUATRO_ORACION_1/LLEGAR_4.mp4,CUATRO_ORACION_1.mp4,Llegaron cuatros mamás para apoyar la enseñanza de la lengua de Seña.
-343,ayudar,AYUDAR,2,CUATRO_ORACION_1/AYUDAR_5.mp4,CUATRO_ORACION_1.mp4,Llegaron cuatros mamás para apoyar la enseñanza de la lengua de Seña.
-344,enseñar,ENSEÑAR,1,CUATRO_ORACION_1/ENSEÑAR_6.mp4,CUATRO_ORACION_1.mp4,Llegaron cuatros mamás para apoyar la enseñanza de la lengua de Seña.
-345,cortina,CORTINA-ROLLER,1,CORTINA_ORACION_3/CORTINA-ROLLER_2.mp4,CORTINA_ORACION_3.mp4,Hay fuerte sol por ahí y cierra la cortina.
-346,chancho,CHANCHO,1,DIECIOCHO_ORACION_1/CHANCHO_2.mp4,DIECIOCHO_ORACION_1.mp4,La cantidad de los chanchos es 18
-347,sick,SICK,1,ESTAR-BIEN_ORACION_1/SICK_3.mp4,ESTAR-BIEN_ORACION_1.mp4,¿Estás enfermo?Yo estoy bien.
-348,tú,TU,1,ESTAR-BIEN_ORACION_1/TU_1.mp4,ESTAR-BIEN_ORACION_1.mp4,¿Estás enfermo?Yo estoy bien.
-349,doctor,DOCTOR,1,PREGUNTAR_ORACION_1/DOCTOR_1.mp4,PREGUNTAR_ORACION_1.mp4,Mientras hablaba con el dr y le hice las preguntas.
-350,rollo,ROLLO-DE-MONEDAS,2,CONTAR-DINERO_ORACION_2/ROLLO-DE-MONEDAS_4.mp4,CONTAR-DINERO_ORACION_2.mp4,¿Cuántos me darás? déjame ver y contar el tubo(rollo) de monedas.
-351,agrupar,AGRUPAR,1,MALO_ORACION_2/AGRUPAR_6.mp4,MALO_ORACION_2.mp4,"¿Por qué contarle a nuestro amigo? Mejor no, vamos a juntarnos aparte dice el otro amigo. Lo veo como una mala persona."
-352,persona,PERSONA,2,MALO_ORACION_2/PERSONA_10.mp4,MALO_ORACION_2.mp4,"¿Por qué contarle a nuestro amigo? Mejor no, vamos a juntarnos aparte dice el otro amigo. Lo veo como una mala persona."
-353,alejar,ALEJAR-DE-LA-PERSONA,1,MALO_ORACION_2/ALEJAR-DE-LA-PERSONA_5.mp4,MALO_ORACION_2.mp4,"¿Por qué contarle a nuestro amigo? Mejor no, vamos a juntarnos aparte dice el otro amigo. Lo veo como una mala persona."
-354,siempre,SIEMPRE,1,FELIZ_ORACION_3/SIEMPRE_3.mp4,FELIZ_ORACION_3.mp4,Siempre sonrío.
-355,invitar,INVITAR,1,MATRIMONIO_ORACION_2/INVITAR_1.mp4,MATRIMONIO_ORACION_2.mp4,"Invitame a tu matrimonio, si?"
-356,contar,CONTAR-BILLETES,2,CONTAR-DINERO_ORACION_1/CONTAR-BILLETES_10.mp4,CONTAR-DINERO_ORACION_1.mp4,"Oye, ¿Cuál es el precio este de ahi? Voy a pagar, ¿Éste cuánto está?, Contando billetes, aqui tiene, cuentas billetes. Listo, dame."
-357,pagar,PAGAR,1,CONTAR-DINERO_ORACION_1/PAGAR_6.mp4,CONTAR-DINERO_ORACION_1.mp4,"Oye, ¿Cuál es el precio este de ahi? Voy a pagar, ¿Éste cuánto está?, Contando billetes, aqui tiene, cuentas billetes. Listo, dame."
-358,cuanto,CUANTOS,1,CONTAR-DINERO_ORACION_1/CUANTOS_4.mp4,CONTAR-DINERO_ORACION_1.mp4,"Oye, ¿Cuál es el precio este de ahi? Voy a pagar, ¿Éste cuánto está?, Contando billetes, aqui tiene, cuentas billetes. Listo, dame."
-359,jefe,JEFE,1,ACERCARSE_ORACION_2/JEFE_4.mp4,ACERCARSE_ORACION_2.mp4,Quiero acercarme al jefe
-360,gordo,GORDO,3,FLACO_ORACION_3/GORDO_2.mp4,FLACO_ORACION_3.mp4,"Ah, eras gordo. Qué bien que ahora te hayas delgazado"
-361,pila,PILA,1,PILA_ORACION_1/PILA_2.mp4,PILA_ORACION_1.mp4,Yo tengo una pila. ¿De qué? Trabajo.
-362,wow,WOW,1,GORDO_ORACION_1/WOW_1.mp4,GORDO_ORACION_1.mp4,¡Wow! ¡Estás gordo!
-363,subir,SUBIR-PERSONA,1,SUBIR-PERSONA_ORACION_1/SUBIR-PERSONA_4.mp4,SUBIR-PERSONA_ORACION_1.mp4,"Cuando veo el papel, uy ya era hora, y subo rapidito para arriba."
-368,avisar,AVISAR,1,ANTES_ORACION_1/AVISAR_5.mp4,ANTES_ORACION_1.mp4,"Me falta comer, no me avisaste nada. Avísame antes."
-369,antes,ANTES,2,ANTES_ORACION_1/ANTES_7.mp4,ANTES_ORACION_1.mp4,"Me falta comer, no me avisaste nada. Avísame antes."
-370,intentar,INTENTAR,1,IGUAL_ORACION_1/INTENTAR_2.mp4,IGUAL_ORACION_1.mp4,¿Te vas a comer todo eso? Hay que dividir los alimentos en partes iguales.
-371,ellos,ELLOS,1,AMANECER_ORACION_1/ELLOS_1.mp4,AMANECER_ORACION_1.mp4,Ellos mientras señaban vieron el amanecer.
-372,diferente,DIFERENTE,1,IGUAL_ORACION_8/DIFERENTE_4.mp4,IGUAL_ORACION_8.mp4,"Las personas se comunican y piensan de formas diferentes. Todos somos iguales, no diferentes."
-373,desigualdad,DESIGUALDAD,1,IGUAL_ORACION_8/DESIGUALDAD_6.mp4,IGUAL_ORACION_8.mp4,"Las personas se comunican y piensan de formas diferentes. Todos somos iguales, no diferentes."
-374,comunicar,COMUNICAR,1,IGUAL_ORACION_8/COMUNICAR_2.mp4,IGUAL_ORACION_8.mp4,"Las personas se comunican y piensan de formas diferentes. Todos somos iguales, no diferentes."
-375,¿,¿QUÉ-PASA?,1,FLACO_ORACION_4/¿QUÉ-PASA?_2.mp4,FLACO_ORACION_4.mp4,"Eres muy delgado, ¿qué pasa contigo?"
-376,rico,RICO,1,DINERO_ORACION_2/RICO_2.mp4,DINERO_ORACION_2.mp4,Estoy misio pues no tengo dinero.
-377,dinero,DINERO---PLATA,1,DINERO_ORACION_2/DINERO---PLATA_3.mp4,DINERO_ORACION_2.mp4,Estoy misio pues no tengo dinero.
-378,persona,PERSONAS-JUNTAS,1,BASTANTE_ORACION_1/PERSONAS-JUNTAS_3.mp4,BASTANTE_ORACION_1.mp4,"Uy, yo vi ahí a bastantes personas que se juntaron."
-379,bastante,BASTANTE,1,BASTANTE_ORACION_1/BASTANTE_4.mp4,BASTANTE_ORACION_1.mp4,"Uy, yo vi ahí a bastantes personas que se juntaron."
-380,año,AÑO,1,AMIGO_ORACION_1/AÑO_4.mp4,AMIGO_ORACION_1.mp4,"El y yo fuimos amigos de muchos años, fuimos buenos amigos."
-381,encender,ENCENDER-MOTOR,1,LANCHA_ORACION_1/ENCENDER-MOTOR_2.mp4,LANCHA_ORACION_1.mp4,Se cruzan dos lanchas.
-382,motor,MOTOR,1,LANCHA_ORACION_1/MOTOR_3.mp4,LANCHA_ORACION_1.mp4,Se cruzan dos lanchas.
-383,ven,VEN,1,ABURRIDO_ORACION_4/VEN_1.mp4,ABURRIDO_ORACION_4.mp4, ¿Vienes a ayudarme?Qué aburrido 
-384,increible,INCREIBLE,1,DIECISEIS_ORACION_3/INCREIBLE_4.mp4,DIECISEIS_ORACION_3.mp4,"¿Cuántos gatos hay ahí? Increíble, son 16."
-385,entrenar,ENTRENAR,1,HACER_ORACION_1/ENTRENAR_3.mp4,HACER_ORACION_1.mp4,Entreno duro en ese lugar deportivo.
-386,hacer,HACER,1,HACER_ORACION_1/HACER_2.mp4,HACER_ORACION_1.mp4,Entreno duro en ese lugar deportivo.
-387,deporte,DEPORTE,1,HACER_ORACION_1/DEPORTE_5.mp4,HACER_ORACION_1.mp4,Entreno duro en ese lugar deportivo.
-388,mamá,MAMÁ,1,FLACO_ORACION_2/MAMÁ_2.mp4,FLACO_ORACION_2.mp4,Mi mamá es delgada.
-389,persona,PERSONAS,1,AMANECER_ORACION_2/PERSONAS_1.mp4,AMANECER_ORACION_2.mp4,Hay mucha gente interactuando hasta el amanecer.
-390,pollo,POLLO,1,DIECISIETE_ORACION_3/POLLO_1.mp4,DIECISIETE_ORACION_3.mp4,¿Cuántos pollos hay? Diecisiete.
-391,buscar,BUSCAR-RECIPENTE,1,DOS_ORACION_1/BUSCAR-RECIPENTE_3.mp4,DOS_ORACION_1.mp4,"Lo señalé y dije ""espera"", fui a buscar algo y encontré el recipente. Lo llevé y al señalar algo dentro del recipente, le dije que son dos para tí."
-392,quitar,QUITAR,1,DOS_ORACION_1/QUITAR_2.mp4,DOS_ORACION_1.mp4,"Lo señalé y dije ""espera"", fui a buscar algo y encontré el recipente. Lo llevé y al señalar algo dentro del recipente, le dije que son dos para tí."
-393,llevar,LLEVAR-RECIPENTE,1,DOS_ORACION_1/LLEVAR-RECIPENTE_4.mp4,DOS_ORACION_1.mp4,"Lo señalé y dije ""espera"", fui a buscar algo y encontré el recipente. Lo llevé y al señalar algo dentro del recipente, le dije que son dos para tí."
-394,gallina,GALLINA,1,DIECIOCHO_ORACION_2/GALLINA_2.mp4,DIECIOCHO_ORACION_2.mp4,La cantidad de las gallinas es 18
-395,mañana,MAÑANA,1,CORRER_ORACION_1/MAÑANA_1.mp4,CORRER_ORACION_1.mp4,Mañana en la mañana tempranito vamos a correr (trotar)
-396,correr,CORRER,1,CORRER_ORACION_1/CORRER_5.mp4,CORRER_ORACION_1.mp4,Mañana en la mañana tempranito vamos a correr (trotar)
-397,mañana,MAÑANA-DEL-DIA,1,CORRER_ORACION_1/MAÑANA-DEL-DIA_2.mp4,CORRER_ORACION_1.mp4,Mañana en la mañana tempranito vamos a correr (trotar)
-398,dia,DIA,1,DIA_ORACION_1/DIA_1.mp4,DIA_ORACION_1.mp4,Un día caminaba y compré pan
-399,deber,DEBER,1,IGUAL_ORACION_7/DEBER_3.mp4,IGUAL_ORACION_7.mp4,"Ya están los grupos. No debe faltar ninguno, todos deben ser iguales"
-400,grupo,GRUPO,1,IGUAL_ORACION_7/GRUPO_1.mp4,IGUAL_ORACION_7.mp4,"Ya están los grupos. No debe faltar ninguno, todos deben ser iguales"
-401,ah,AH-YA,1,ENTENDER_ORACION_1/AH-YA_1.mp4,ENTENDER_ORACION_1.mp4,"Ah ya, comprendo."
-402,poder,PODER,1,CINCUENTA_ORACION_1/PODER_4.mp4,CINCUENTA_ORACION_1.mp4,"Prestame la plata, ¿Puedes prestarme cincuenta?"
-403,prestar yo,PRESTARME,1,CINCUENTA_ORACION_1/PRESTARME_2.mp4,CINCUENTA_ORACION_1.mp4,"Prestame la plata, ¿Puedes prestarme cincuenta?"
-404,cincuenta,CINCUENTA,1,CINCUENTA_ORACION_1/CINCUENTA_5.mp4,CINCUENTA_ORACION_1.mp4,"Prestame la plata, ¿Puedes prestarme cincuenta?"
+﻿Unnamed: 0,Webname,word2search,GlossVar,Frequence,Path,SentencePath,TextSentence
+0,abrir,abrir,ABRIR,1,ABRIR-CORTINA_ORACION_1\ABRIR_7.mp4,ABRIR-CORTINA_ORACION_1.mp4,Abro la cortina persiana porque está oscuro y no puedo ver.
+1,no,no,NO,11,ABRIR-CORTINA_ORACION_1\NO_5.mp4,ABRIR-CORTINA_ORACION_1.mp4,Abro la cortina persiana porque está oscuro y no puedo ver.
+2,oscuro,oscuro,OSCURO,1,ABRIR-CORTINA_ORACION_1\OSCURO_3.mp4,ABRIR-CORTINA_ORACION_1.mp4,Abro la cortina persiana porque está oscuro y no puedo ver.
+3,persiana,persiana,PERSIANA,3,ABRIR-CORTINA_ORACION_1\PERSIANA_6.mp4,ABRIR-CORTINA_ORACION_1.mp4,Abro la cortina persiana porque está oscuro y no puedo ver.
+4,ver,ver,VER,52,ABRIR-CORTINA_ORACION_1\VER_2.mp4,ABRIR-CORTINA_ORACION_1.mp4,Abro la cortina persiana porque está oscuro y no puedo ver.
+5,yo,yo,YO,147,ABRIR-CORTINA_ORACION_1\YO_1.mp4,ABRIR-CORTINA_ORACION_1.mp4,Abro la cortina persiana porque está oscuro y no puedo ver.
+6,abrir (cortina),abrir,ABRIR-CORTINA,1,ABRIR-CORTINA_ORACION_2\ABRIR-CORTINA_3.mp4,ABRIR-CORTINA_ORACION_2.mp4, Yo abrí la cortina para que entre la luz
+7,jalar (cordón),jalar,JALAR-CORDON,1,ABRIR-CORTINA_ORACION_2\JALAR-CORDON_2.mp4,ABRIR-CORTINA_ORACION_2.mp4, Yo abrí la cortina para que entre la luz
+8,luz,luz,LUZ,1,ABRIR-CORTINA_ORACION_2\LUZ_4.mp4,ABRIR-CORTINA_ORACION_2.mp4, Yo abrí la cortina para que entre la luz
+9,abrir (ventana),abrir,ABRIR-VENTANA,3,ABRIR_ORACION_1\ABRIR-VENTANA_3.mp4,ABRIR_ORACION_1.mp4,Yo fui caminando a abrir la ventana para refrescarme.
+10,caminar (de persona),caminar,CAMINAR-PERSONA,24,ABRIR_ORACION_1\CAMINAR-PERSONA_2.mp4,ABRIR_ORACION_1.mp4,Yo fui caminando a abrir la ventana para refrescarme.
+11,refrescar,refrescar,REFRESCAR,1,ABRIR_ORACION_1\REFRESCAR_4.mp4,ABRIR_ORACION_1.mp4,Yo fui caminando a abrir la ventana para refrescarme.
+12,al frente,al,AL-FRENTE,1,ABRIR_ORACION_2\AL-FRENTE_4.mp4,ABRIR_ORACION_2.mp4,Yo abro la ventana y miro al frente.
+13,asomar,asomar,ASOMAR,1,ABRIR_ORACION_2\ASOMAR_5.mp4,ABRIR_ORACION_2.mp4,Yo abro la ventana y miro al frente.
+14,calor,calor,CALOR,4,ABRIR_ORACION_3\CALOR_2.mp4,ABRIR_ORACION_3.mp4,Estaba durmiendo y fui a abrir la ventana porque hacía calor. Me sentí mejor y volví a dormir.
+15,dormir,dormir,DORMIR,9,ABRIR_ORACION_3\DORMIR_1.mp4,ABRIR_ORACION_3.mp4,Estaba durmiendo y fui a abrir la ventana porque hacía calor. Me sentí mejor y volví a dormir.
+16,desenrroscar (tapa),desenrroscar,DESENRROSCAR-TAPA,1,ABRIR_ORACION_4\DESENRROSCAR-TAPA_3.mp4,ABRIR_ORACION_4.mp4,"Yo preparo en una olla y vi el frasco, lo abro, echo dos cucharadas a la olla, cierro el frasco y mezclo lo que hay en la olla."
+17,echar (cucharada),echar,ECHAR-CUCHARADA,2,ABRIR_ORACION_4\ECHAR-CUCHARADA_5.mp4,ABRIR_ORACION_4.mp4,"Yo preparo en una olla y vi el frasco, lo abro, echo dos cucharadas a la olla, cierro el frasco y mezclo lo que hay en la olla."
+18,levantar (tapa),levantar,LEVANTAR-TAPA,1,ABRIR_ORACION_4\LEVANTAR-TAPA_4.mp4,ABRIR_ORACION_4.mp4,"Yo preparo en una olla y vi el frasco, lo abro, echo dos cucharadas a la olla, cierro el frasco y mezclo lo que hay en la olla."
+19,mezclar,mezclar,MEZCLAR,2,ABRIR_ORACION_4\MEZCLAR_2.mp4,ABRIR_ORACION_4.mp4,"Yo preparo en una olla y vi el frasco, lo abro, echo dos cucharadas a la olla, cierro el frasco y mezclo lo que hay en la olla."
+20,aburrido,aburrido,ABURRIDO,5,ABURRIDO_ORACION_1\ABURRIDO_4.mp4,ABURRIDO_ORACION_1.mp4,Me aburre salir a trabajar
+21,ir,ir,IR,22,ABURRIDO_ORACION_1\IR_2.mp4,ABURRIDO_ORACION_1.mp4,Me aburre salir a trabajar
+22,trabajar,trabajar,TRABAJAR,4,ABURRIDO_ORACION_1\TRABAJAR_3.mp4,ABURRIDO_ORACION_1.mp4,Me aburre salir a trabajar
+23,caminar (de persona),caminar,CAMINAR,3,ABURRIDO_ORACION_2\CAMINAR_2.mp4,ABURRIDO_ORACION_2.mp4,Yo caminaba aburrido porque hacía mucho calor.
+24,fuerte,fuerte,FUERTE,1,ABURRIDO_ORACION_2\FUERTE_5.mp4,ABURRIDO_ORACION_2.mp4,Yo caminaba aburrido porque hacía mucho calor.
+25,bailar,bailar,BAILAR,1,ABURRIDO_ORACION_3\BAILAR_3.mp4,ABURRIDO_ORACION_3.mp4,¿Yo ir a bailar? ¡Qué aburrido!
+26,ayudar,ayudar,AYUDAR,2,ABURRIDO_ORACION_4\AYUDAR_2.mp4,ABURRIDO_ORACION_4.mp4, ¿Vienes a ayudarme?Qué aburrido 
+27,ven,ven,VEN,1,ABURRIDO_ORACION_4\VEN_1.mp4,ABURRIDO_ORACION_4.mp4, ¿Vienes a ayudarme?Qué aburrido 
+28,acercarse,acercar él,ACERCARSE,2,ACERCARSE_ORACION_1\ACERCARSE_1.mp4,ACERCARSE_ORACION_1.mp4,Hoy me encontré a Juan por sorpresa. 
+29,hoy,hoy,HOY,7,ACERCARSE_ORACION_1\HOY_2.mp4,ACERCARSE_ORACION_1.mp4,Hoy me encontré a Juan por sorpresa. 
+30,Juan,juan,JUAN,1,ACERCARSE_ORACION_1\JUAN_3.mp4,ACERCARSE_ORACION_1.mp4,Hoy me encontré a Juan por sorpresa. 
+31,jefe,jefe,JEFE,1,ACERCARSE_ORACION_2\JEFE_4.mp4,ACERCARSE_ORACION_2.mp4,Quiero acercarme al jefe
+32,querer,querer,QUERER,6,ACERCARSE_ORACION_2\QUERER_2.mp4,ACERCARSE_ORACION_2.mp4,Quiero acercarme al jefe
+33,adivina (persona),adivina,ADIVINA,1,ADIVINA_ORACION_1\ADIVINA_5.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
+34,curiosidad,curiosidad,CURIOSIDAD,2,ADIVINA_ORACION_1\CURIOSIDAD_4.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
+35,dinero,dinero,DINERO,12,ADIVINA_ORACION_1\DINERO_2.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
+36,robar,robar,ROBAR,2,ADIVINA_ORACION_1\ROBAR_3.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
+37,saber,saber,SABER,1,ADIVINA_ORACION_1\SABER_1.mp4,ADIVINA_ORACION_1.mp4,Por curiosidad quisiera saber con un adivino quién me ha robado el dinero.
+38,ahí,ahi,AHI,6,AHI_ORACION_1\AHI_1.mp4,AHI_ORACION_1.mp4,"Ahí, dame el pan de ahí, ahí."
+39,dame,dame,DAME,2,AHI_ORACION_1\DAME_2.mp4,AHI_ORACION_1.mp4,"Ahí, dame el pan de ahí, ahí."
+40,pan,pan,PAN,5,AHI_ORACION_1\PAN_3.mp4,AHI_ORACION_1.mp4,"Ahí, dame el pan de ahí, ahí."
+41,ahora,ahora,AHORA,4,AHORA_ORACION_1\AHORA_1.mp4,AHORA_ORACION_1.mp4,Ahora me cambio la ropa.
+42,cambiar (ropa),cambiar,CAMBIAR-ROPA,1,AHORA_ORACION_1\CAMBIAR-ROPA_3.mp4,AHORA_ORACION_1.mp4,Ahora me cambio la ropa.
+43,estudiar,estudiar,ESTUDIAR,3,AHORA_ORACION_2\ESTUDIAR_2.mp4,AHORA_ORACION_2.mp4,Ahora tienes que estudiar.
+44,alguno/os,alguno,ALGUNOS,2,ALGUNOS_ORACION_1\ALGUNOS_3.mp4,ALGUNOS_ORACION_1.mp4,"¿Algún problema?No sé, pero para algunos sí."
+45,no saber,no,NO-SABER,3,ALGUNOS_ORACION_1\NO-SABER_2.mp4,ALGUNOS_ORACION_1.mp4,"¿Algún problema?No sé, pero para algunos sí."
+46,problema,problema,PROBLEMA,1,ALGUNOS_ORACION_1\PROBLEMA_1.mp4,ALGUNOS_ORACION_1.mp4,"¿Algún problema?No sé, pero para algunos sí."
+47,libro,libro,LIBRO,5,ALGUNOS_ORACION_2\LIBRO_3.mp4,ALGUNOS_ORACION_2.mp4,"¡Yo había visto un libro aquí!No sé, pero allí hay algunos libros."
+48,allá,alla,ALLA,1,ALLA_ORACION_1\ALLA_7.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
+49,buscar,buscar,BUSCAR,7,ALLA_ORACION_1\BUSCAR_3.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
+50,dónde,donde,DONDE,10,ALLA_ORACION_1\DONDE_6.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
+51,hijo,hijo,HIJO,4,ALLA_ORACION_1\HIJO_5.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
+52,oye,oye,OYE,16,ALLA_ORACION_1\OYE_2.mp4,ALLA_ORACION_1.mp4,"Oye, yo busco a mi hijo ¿dónde está?Por allá¡Ah, ahí estás!"
+53,hombre,hombre,HOMBRE,5,ALTO_ORACION_1\HOMBRE_4.mp4,ALTO_ORACION_1.mp4,He visto a un hombre muy alto.
+54,muy alto,mucho,MUY-ALTO,1,ALTO_ORACION_1\MUY-ALTO_5.mp4,ALTO_ORACION_1.mp4,He visto a un hombre muy alto.
+55,uno,uno,UNO,8,ALTO_ORACION_1\UNO_3.mp4,ALTO_ORACION_1.mp4,He visto a un hombre muy alto.
+56,uy,uy,UY,4,ALTO_ORACION_1\UY_6.mp4,ALTO_ORACION_1.mp4,He visto a un hombre muy alto.
+57,amanecer,amanecer,AMANECER,3,AMANECER_ORACION_1\AMANECER_5.mp4,AMANECER_ORACION_1.mp4,Ellos mientras señaban vieron el amanecer.
+58,apuntar,ellos,ELLOS,1,AMANECER_ORACION_1\ELLOS_1.mp4,AMANECER_ORACION_1.mp4,Ellos mientras señaban vieron el amanecer.
+59,señar,señar,SEÑAR,6,AMANECER_ORACION_1\SEÑAR_2.mp4,AMANECER_ORACION_1.mp4,Ellos mientras señaban vieron el amanecer.
+60,interactuar,interactuar,INTERACTUAR,2,AMANECER_ORACION_2\INTERACTUAR_3.mp4,AMANECER_ORACION_2.mp4,Hay mucha gente interactuando hasta el amanecer.
+61,mucho,mucho,MUCHO,5,AMANECER_ORACION_2\MUCHO_2.mp4,AMANECER_ORACION_2.mp4,Hay mucha gente interactuando hasta el amanecer.
+62,personas,persona,PERSONAS,1,AMANECER_ORACION_2\PERSONAS_1.mp4,AMANECER_ORACION_2.mp4,Hay mucha gente interactuando hasta el amanecer.
+63,toda la noche,todo,TODA-LA-NOCHE,1,AMANECER_ORACION_3\TODA-LA-NOCHE_2.mp4,AMANECER_ORACION_3.mp4,Dormí toda la noche hasta el amanecer. 
+64,carro,carro,CARRO,4,AMBULANCIA_ORACION_1\CARRO_1.mp4,AMBULANCIA_ORACION_1.mp4,La ambulancia va por una vía de doble sentido.
+65,sirena,sirena,SIRENA,1,AMBULANCIA_ORACION_1\SIRENA_2.mp4,AMBULANCIA_ORACION_1.mp4,La ambulancia va por una vía de doble sentido.
+66,via de doble sentido,via,VIA-DOBLE-SENTIDO,6,AMBULANCIA_ORACION_1\VIA-DOBLE-SENTIDO_3.mp4,AMBULANCIA_ORACION_1.mp4,La ambulancia va por una vía de doble sentido.
+67,amigo,amigo,AMIGO,4,AMIGO_ORACION_1\AMIGO_3.mp4,AMIGO_ORACION_1.mp4,"El y yo fuimos amigos de muchos años, fuimos buenos amigos."
+68,antes,ant,ANTES,2,AMIGO_ORACION_1\ANTES_2.mp4,AMIGO_ORACION_1.mp4,"El y yo fuimos amigos de muchos años, fuimos buenos amigos."
+69,año,año,AÑO,1,AMIGO_ORACION_1\AÑO_4.mp4,AMIGO_ORACION_1.mp4,"El y yo fuimos amigos de muchos años, fuimos buenos amigos."
+70,bien,bien,BIEN,10,AMIGO_ORACION_1\BIEN_5.mp4,AMIGO_ORACION_1.mp4,"El y yo fuimos amigos de muchos años, fuimos buenos amigos."
+71,anillo,anillo,ANILLO,2,ANILLO_ORACION_1\ANILLO_4.mp4,ANILLO_ORACION_1.mp4,Me voy a comprar el anillo. 
+72,comprar,comprar,COMPRAR,9,ANILLO_ORACION_1\COMPRAR_3.mp4,ANILLO_ORACION_1.mp4,Me voy a comprar el anillo. 
+73,anochecer,anochecer,ANOCHECER,2,ANOCHECER_ORACION_1\ANOCHECER_3.mp4,ANOCHECER_ORACION_1.mp4,Yo tipeaba hasta el amanecer.
+74,tipear,tipear,TIPEAR,1,ANOCHECER_ORACION_1\TIPEAR_2.mp4,ANOCHECER_ORACION_1.mp4,Yo tipeaba hasta el amanecer.
+75,avisar,avisar,AVISAR,1,ANTES_ORACION_1\AVISAR_5.mp4,ANTES_ORACION_1.mp4,"Me falta comer, no me avisaste nada. Avísame antes."
+76,comer,comer,COMER,5,ANTES_ORACION_1\COMER_2.mp4,ANTES_ORACION_1.mp4,"Me falta comer, no me avisaste nada. Avísame antes."
+77,faltar,falta,FALTA,3,ANTES_ORACION_1\FALTA_3.mp4,ANTES_ORACION_1.mp4,"Me falta comer, no me avisaste nada. Avísame antes."
+78,nada,nada,NADA,3,ANTES_ORACION_1\NADA_6.mp4,ANTES_ORACION_1.mp4,"Me falta comer, no me avisaste nada. Avísame antes."
+79,atardecer,atardecer,ATARDECER,4,ATARDECER_ORACION_1\ATARDECER_5.mp4,ATARDECER_ORACION_1.mp4,Yo veo el bonito atardecer en el mar.
+80,bonito,bonito,BONITO,4,ATARDECER_ORACION_1\BONITO_3.mp4,ATARDECER_ORACION_1.mp4,Yo veo el bonito atardecer en el mar.
+81,mar,mar,MAR,1,ATARDECER_ORACION_1\MAR_4.mp4,ATARDECER_ORACION_1.mp4,Yo veo el bonito atardecer en el mar.
+82,viaje,viaje,VIAJE,1,ATARDECER_ORACION_2\VIAJE_5.mp4,ATARDECER_ORACION_2.mp4,Yo quiero ir de viaje en carro para ver el atardecer.
+83,atrapar,atrapar,ATRAPAR,3,ATRAPAR_ORACION_1\ATRAPAR_3.mp4,ATRAPAR_ORACION_1.mp4,Yo te vi y te atrapé.
+84,junto,junto,JUNTO,1,ATRAPAR_ORACION_2\JUNTO_5.mp4,ATRAPAR_ORACION_2.mp4,Hoy yo lo atrapé junto a una mujer. ¿Quién? No sé.
+85,mujer,mujer,MUJER,1,ATRAPAR_ORACION_2\MUJER_6.mp4,ATRAPAR_ORACION_2.mp4,Hoy yo lo atrapé junto a una mujer. ¿Quién? No sé.
+86,quién,quien,QUIEN,2,ATRAPAR_ORACION_2\QUIEN_7.mp4,ATRAPAR_ORACION_2.mp4,Hoy yo lo atrapé junto a una mujer. ¿Quién? No sé.
+87,avión,avion,AVION,4,AVIONETA_ORACION_1\AVION_1.mp4,AVIONETA_ORACION_1.mp4,Las avionetas se cruzan.
+88,cruzar (avión),cruzar,CRUZAR-AVION,2,AVIONETA_ORACION_1\CRUZAR-AVION_3.mp4,AVIONETA_ORACION_1.mp4,Las avionetas se cruzan.
+89,pequeño,pequeño,PEQUEÑO,2,AVIONETA_ORACION_1\PEQUEÑO_2.mp4,AVIONETA_ORACION_1.mp4,Las avionetas se cruzan.
+90,bajar (escalera),bajar,BAJAR-ESCALERA,1,BAJAR-ESCALERA_ORACION_1\BAJAR-ESCALERA_2.mp4,BAJAR-ESCALERA_ORACION_1.mp4,Iba bajando por la escalera y me caí.
+91,caer (de una escalera),caer,CAER-ESCALERA,1,BAJAR-ESCALERA_ORACION_1\CAER-ESCALERA_3.mp4,BAJAR-ESCALERA_ORACION_1.mp4,Iba bajando por la escalera y me caí.
+92,bote,bote,BOTE,6,BARCO_ORACION_1\BOTE_1.mp4,BARCO_ORACION_1.mp4,Los barcos se cruzan.
+93,cruzar (bote),cruzar,CRUZAR-BOTE,3,BARCO_ORACION_1\CRUZAR-BOTE_3.mp4,BARCO_ORACION_1.mp4,Los barcos se cruzan.
+94,grande,grande,GRANDE,6,BARCO_ORACION_1\GRANDE_2.mp4,BARCO_ORACION_1.mp4,Los barcos se cruzan.
+95,bastante,bastante,BASTANTE,1,BASTANTE_ORACION_1\BASTANTE_4.mp4,BASTANTE_ORACION_1.mp4,"Uy, yo vi ahí a bastantes personas que se juntaron."
+96,personas (juntas),persona,PERSONAS-JUNTAS,1,BASTANTE_ORACION_1\PERSONAS-JUNTAS_3.mp4,BASTANTE_ORACION_1.mp4,"Uy, yo vi ahí a bastantes personas que se juntaron."
+97,bicicleta,bicicleta,BICICLETA,1,BICICLETA_ORACION_1\BICICLETA_1.mp4,BICICLETA_ORACION_1.mp4,Las bicicletas se cruzan.
+98,cruzar (bicicleta),cruzar,CRUZAR-BICICLETA,1,BICICLETA_ORACION_1\CRUZAR-BICICLETA_2.mp4,BICICLETA_ORACION_1.mp4,Las bicicletas se cruzan.
+99,bola,bola,BOLA-DE-CRISTAL,1,BOLA-DE-CRISTAL_ORACION_1\BOLA-DE-CRISTAL_2.mp4,BOLA-DE-CRISTAL_ORACION_1.mp4,¿Qué me dice la bola de cristal? Tengo deseo de saber sobre mi futuro.
+100,decir,decir,DECIR,12,BOLA-DE-CRISTAL_ORACION_1\DECIR_1.mp4,BOLA-DE-CRISTAL_ORACION_1.mp4,¿Qué me dice la bola de cristal? Tengo deseo de saber sobre mi futuro.
+101,desear,desear,DESEAR,1,BOLA-DE-CRISTAL_ORACION_1\DESEAR_5.mp4,BOLA-DE-CRISTAL_ORACION_1.mp4,¿Qué me dice la bola de cristal? Tengo deseo de saber sobre mi futuro.
+102,futuro,futuro,FUTURO,5,BOLA-DE-CRISTAL_ORACION_1\FUTURO_4.mp4,BOLA-DE-CRISTAL_ORACION_1.mp4,¿Qué me dice la bola de cristal? Tengo deseo de saber sobre mi futuro.
+103,mi,mi,MI,17,BOLA-DE-CRISTAL_ORACION_1\MI_3.mp4,BOLA-DE-CRISTAL_ORACION_1.mp4,¿Qué me dice la bola de cristal? Tengo deseo de saber sobre mi futuro.
+104,bus,bus,BUS,2,BUS_ORACION_1\BUS_1.mp4,BUS_ORACION_1.mp4,Un bus va por la vía de doble sentido.
+105,caer,caer,CAER,1,CAER_ORACION_1\CAER_5.mp4,CAER_ORACION_1.mp4,"Yo caminaba, miré algo, me tropecé y me caí por no darme cuenta."
+106,no captar,no,NO-CAPTAR,1,CAER_ORACION_1\NO-CAPTAR_6.mp4,CAER_ORACION_1.mp4,"Yo caminaba, miré algo, me tropecé y me caí por no darme cuenta."
+107,tropezar,tropezar,TROPEZAR,1,CAER_ORACION_1\TROPEZAR_4.mp4,CAER_ORACION_1.mp4,"Yo caminaba, miré algo, me tropecé y me caí por no darme cuenta."
+108,caja,caja,CAJA,5,CAJA_ORACION_1\CAJA_1.mp4,CAJA_ORACION_1.mp4,En una caja guardo cosas y la cargo. 
+109,cargar,cargar,CARGAR,1,CAJA_ORACION_1\CARGAR_4.mp4,CAJA_ORACION_1.mp4,En una caja guardo cosas y la cargo. 
+110,guardar,guardar,GUARDAR,13,CAJA_ORACION_1\GUARDAR_2.mp4,CAJA_ORACION_1.mp4,En una caja guardo cosas y la cargo. 
+111,caja (grande),caja,CAJA-GRANDE,1,CAJA_ORACION_2\CAJA-GRANDE_1.mp4,CAJA_ORACION_2.mp4,Tráeme la caja grande y la cargo.
+112,cargar (caja),cargar,CARGAR-CAJA,2,CAJA_ORACION_2\CARGAR-CAJA_3.mp4,CAJA_ORACION_2.mp4,Tráeme la caja grande y la cargo.
+113,traer (caja),traer,TRAER-CAJA,1,CAJA_ORACION_2\TRAER-CAJA_2.mp4,CAJA_ORACION_2.mp4,Tráeme la caja grande y la cargo.
+114,arete,arete,ARETE,3,CAJA_ORACION_3\ARETE_2.mp4,CAJA_ORACION_3.mp4,En una caja pequeña guardo aretes y el anillo.
+115,caja (pequeña),cajar,CAJA-PEQUEÑA,1,CAJA_ORACION_3\CAJA-PEQUEÑA_1.mp4,CAJA_ORACION_3.mp4,En una caja pequeña guardo aretes y el anillo.
+116,helado,helado,HELADO,1,CALOR_ORACION_1\HELADO_5.mp4,CALOR_ORACION_1.mp4,"Pucha, yo quiero helado, ya salió el sol y hace calor."
+117,pucha,pucha,PUCHA,1,CALOR_ORACION_1\PUCHA_1.mp4,CALOR_ORACION_1.mp4,"Pucha, yo quiero helado, ya salió el sol y hace calor."
+118,sol,sol,SOL,3,CALOR_ORACION_1\SOL_7.mp4,CALOR_ORACION_1.mp4,"Pucha, yo quiero helado, ya salió el sol y hace calor."
+119,ya,ya,YA,20,CALOR_ORACION_1\YA_6.mp4,CALOR_ORACION_1.mp4,"Pucha, yo quiero helado, ya salió el sol y hace calor."
+120,cama,cama,CAMA,2,CAMA_ORACION_1\CAMA_7.mp4,CAMA_ORACION_1.mp4,"Ya es mi hora de dormir, me voy a la cama."
+121,tiempo,tiempo,TIEMPO,6,CAMA_ORACION_1\TIEMPO_2.mp4,CAMA_ORACION_1.mp4,"Ya es mi hora de dormir, me voy a la cama."
+122,ave,ave,AVE,1,CAMINAR_ORACION_1\AVE_4.mp4,CAMINAR_ORACION_1.mp4,"Ví a un ave por la calle caminando, un pato, allá. Me quedé sorprendida que pasaba. "
+123,calle,calle,CALLE,1,CAMINAR_ORACION_1\CALLE_2.mp4,CAMINAR_ORACION_1.mp4,"Ví a un ave por la calle caminando, un pato, allá. Me quedé sorprendida que pasaba. "
+124,caminar (de ave),caminar,CAMINAR-AVE,2,CAMINAR_ORACION_1\CAMINAR-AVE_5.mp4,CAMINAR_ORACION_1.mp4,"Ví a un ave por la calle caminando, un pato, allá. Me quedé sorprendida que pasaba. "
+125,pasar (ave),pasar,PASAR-AVE,1,CAMINAR_ORACION_1\PASAR-AVE_8.mp4,CAMINAR_ORACION_1.mp4,"Ví a un ave por la calle caminando, un pato, allá. Me quedé sorprendida que pasaba. "
+126,pato,pato,PATO,3,CAMINAR_ORACION_1\PATO_6.mp4,CAMINAR_ORACION_1.mp4,"Ví a un ave por la calle caminando, un pato, allá. Me quedé sorprendida que pasaba. "
+127,bueno,bueno,BUENO,5,CAMINAR_ORACION_3\BUENO_3.mp4,CAMINAR_ORACION_3.mp4,"Bueno, yo te digo que ahora camino lento por cansancio."
+128,lento,lento,LENTO,1,CAMINAR_ORACION_3\LENTO_5.mp4,CAMINAR_ORACION_3.mp4,"Bueno, yo te digo que ahora camino lento por cansancio."
+129,camioneta,camioneta,CAMIONETA,1,CAMIONETA_ORACION_1\CAMIONETA_2.mp4,CAMIONETA_ORACION_1.mp4,Manejo una camioneta en una vía de doble sentido.
+130,conducir,conducir,CONDUCIR,3,CAMIONETA_ORACION_1\CONDUCIR_1.mp4,CAMIONETA_ORACION_1.mp4,Manejo una camioneta en una vía de doble sentido.
+131,captar,captar,CAPTAR,4,CAPTAR_ORACION_1\CAPTAR_2.mp4,CAPTAR_ORACION_1.mp4,Yo capté que comía una manzana. ¿Quién? Capté que él.
+132,comer (manzana),comer,COMER-MANZANA,1,CAPTAR_ORACION_1\COMER-MANZANA_3.mp4,CAPTAR_ORACION_1.mp4,Yo capté que comía una manzana. ¿Quién? Capté que él.
+133,encontrarse,encontrar él,ENCONTRARSE,2,CAPTAR_ORACION_3\ENCONTRARSE_3.mp4,CAPTAR_ORACION_3.mp4,Yo ya las vi a esas dos personas señando y ya lo capté. 
+134,ya (de ver),ya,YA-VER,1,CAPTAR_ORACION_3\YA-VER_2.mp4,CAPTAR_ORACION_3.mp4,Yo ya las vi a esas dos personas señando y ya lo capté. 
+135,dos,dos,DOS,4,CAPTAR_ORACION_4\DOS_4.mp4,CAPTAR_ORACION_4.mp4,Yo capté a dos hombres caminando por ahí y entraron a una oficina.
+136,entrar,entrar,ENTRAR,5,CAPTAR_ORACION_4\ENTRAR_8.mp4,CAPTAR_ORACION_4.mp4,Yo capté a dos hombres caminando por ahí y entraron a una oficina.
+137,oficina,oficina,OFICINA,2,CAPTAR_ORACION_4\OFICINA_9.mp4,CAPTAR_ORACION_4.mp4,Yo capté a dos hombres caminando por ahí y entraron a una oficina.
+138,cargar (mochila),cargar,CARGAR-MOCHILA,1,CARGAR_ORACION_1\CARGAR-MOCHILA_9.mp4,CARGAR_ORACION_1.mp4,"Guardo varios libros, cierro la mochila, la cargo y está pesada."
+139,cerrar (cierre),cerrar,CERRAR-CIERRE,1,CARGAR_ORACION_1\CERRAR-CIERRE_7.mp4,CARGAR_ORACION_1.mp4,"Guardo varios libros, cierro la mochila, la cargo y está pesada."
+140,levantar,levantar,LEVANTAR,1,CARGAR_ORACION_1\LEVANTAR_8.mp4,CARGAR_ORACION_1.mp4,"Guardo varios libros, cierro la mochila, la cargo y está pesada."
+141,bombero,bombero,BOMBERO,1,CARRO-BOMBERO_ORACION_1\BOMBERO_2.mp4,CARRO-BOMBERO_ORACION_1.mp4,Un carro de bomberos va por una vía de doble sentido.
+142,manguera,manguera,MANGUERA,1,CARRO-BOMBERO_ORACION_1\MANGUERA_3.mp4,CARRO-BOMBERO_ORACION_1.mp4,Un carro de bomberos va por una vía de doble sentido.
+143,cartas (Tarot),carta,CARTAS-DE-TAROT,1,CARTAS-DE-TAROT_ORACION_1\CARTAS-DE-TAROT_2.mp4,CARTAS-DE-TAROT_ORACION_1.mp4,Vamos a donde las cartas de Tarot por curiosidad.
+144,vamos,vamos,VAMOS,5,CARTAS-DE-TAROT_ORACION_1\VAMOS_1.mp4,CARTAS-DE-TAROT_ORACION_1.mp4,Vamos a donde las cartas de Tarot por curiosidad.
+145,agarrar (ropa),agarrar,AGARRAR-ROPA,1,CASACA_ORACION_1\AGARRAR-ROPA_3.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
+146,caliente,caliente,CALIENTE,2,CASACA_ORACION_1\CALIENTE_11.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
+147,casaca,casaca,CASACA,1,CASACA_ORACION_1\CASACA_7.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
+148,frío,frio,FRIO,3,CASACA_ORACION_1\FRIO_8.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
+149,poner,poner,PONER,1,CASACA_ORACION_1\PONER_6.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
+150,sostener,sostener,SOSTENER,4,CASACA_ORACION_1\SOSTENER_4.mp4,CASACA_ORACION_1.mp4,"Yo agarro ropa, busco abrigos y escojo de ahí una casaca bonita para calentarme porque tenía frío y me voy caminando."
+151,casar,casar,CASAR,1,CASAR_ORACION_1\CASAR_8.mp4,CASAR_ORACION_1.mp4,"El y yo, ambos caminabamos, nos sentamos, juntos nos firmamos a una acta y ya estamos casados."
+152,firmar,firmar,FIRMAR,3,CASAR_ORACION_1\FIRMAR_5.mp4,CASAR_ORACION_1.mp4,"El y yo, ambos caminabamos, nos sentamos, juntos nos firmamos a una acta y ya estamos casados."
+153,sentar,sentar,SENTAR,1,CASAR_ORACION_1\SENTAR_3.mp4,CASAR_ORACION_1.mp4,"El y yo, ambos caminabamos, nos sentamos, juntos nos firmamos a una acta y ya estamos casados."
+154,casa,casa,CASA,4,CASA_ORACION_1\CASA_6.mp4,CASA_ORACION_1.mp4,"Cuando termina mi turno, voy caminando a mi casa."
+155,terminar,terminar,TERMINAR,4,CASA_ORACION_1\TERMINAR_2.mp4,CASA_ORACION_1.mp4,"Cuando termina mi turno, voy caminando a mi casa."
+156,catorce,catorce,CATORCE,3,CATORCE_ORACION_1\CATORCE_8.mp4,CATORCE_ORACION_1.mp4,"Me falta poco para mi cumpleanos, cuando termine ya voy a cumplir 14 años de edad."
+157,cumpleaños,cumpleaños,CUMPLEAÑOS,1,CATORCE_ORACION_1\CUMPLEAÑOS_4.mp4,CATORCE_ORACION_1.mp4,"Me falta poco para mi cumpleanos, cuando termine ya voy a cumplir 14 años de edad."
+158,edad,edad,EDAD,2,CATORCE_ORACION_1\EDAD_9.mp4,CATORCE_ORACION_1.mp4,"Me falta poco para mi cumpleanos, cuando termine ya voy a cumplir 14 años de edad."
+159,poco,poco,POCO,2,CATORCE_ORACION_1\POCO_3.mp4,CATORCE_ORACION_1.mp4,"Me falta poco para mi cumpleanos, cuando termine ya voy a cumplir 14 años de edad."
+160,clase,clase,CLASE,2,CATORCE_ORACION_2\CLASE_5.mp4,CATORCE_ORACION_2.mp4,Yo fui a ver a esta clase del primer grado de primaria que tiene 14 niños.
+161,niño/niña,niño,NIÑO,6,CATORCE_ORACION_2\NIÑO_8.mp4,CATORCE_ORACION_2.mp4,Yo fui a ver a esta clase del primer grado de primaria que tiene 14 niños.
+162,primero de primaria,primero,PRIMERO-DE-PRIMARIA,1,CATORCE_ORACION_2\PRIMERO-DE-PRIMARIA_7.mp4,CATORCE_ORACION_2.mp4,Yo fui a ver a esta clase del primer grado de primaria que tiene 14 niños.
+163,colegio,colegio,COLEGIO,5,CATORCE_ORACION_3\COLEGIO_2.mp4,CATORCE_ORACION_3.mp4,En mi colegio hay catorce sillas.
+164,diez,diez,DIEZ,3,CATORCE_ORACION_3\DIEZ_4.mp4,CATORCE_ORACION_3.mp4,En mi colegio hay catorce sillas.
+165,haber,haber,HABER,2,CATORCE_ORACION_3\HABER_3.mp4,CATORCE_ORACION_3.mp4,En mi colegio hay catorce sillas.
+166,silla,silla,SILLA,4,CATORCE_ORACION_3\SILLA_5.mp4,CATORCE_ORACION_3.mp4,En mi colegio hay catorce sillas.
+167,cerrar (cajón),cerrar,CERRAR-CAJÓN,1,CERRAR-CAJON_ORACION_1\CERRAR-CAJÓN_5.mp4,CERRAR-CAJON_ORACION_1.mp4,"Doblé la ropa, ya la guardé y cerré el cajón."
+168,doblar,doblar,DOBLAR,1,CERRAR-CAJON_ORACION_1\DOBLAR_2.mp4,CERRAR-CAJON_ORACION_1.mp4,"Doblé la ropa, ya la guardé y cerré el cajón."
+169,ropa,ropa,ROPA,1,CERRAR-CAJON_ORACION_1\ROPA_1.mp4,CERRAR-CAJON_ORACION_1.mp4,"Doblé la ropa, ya la guardé y cerré el cajón."
+170,abrir (cajón),abrir,ABRIR-CAJÓN,1,CERRAR-CAJON_ORACION_2\ABRIR-CAJÓN_4.mp4,CERRAR-CAJON_ORACION_2.mp4,"Veo el cajón, lo abro, guardo los libros y al terminar lo cierro."
+171,cerrar (cajón),cerrar,CERRAR-CAJON,1,CERRAR-CAJON_ORACION_2\CERRAR-CAJON_6.mp4,CERRAR-CAJON_ORACION_2.mp4,"Veo el cajón, lo abro, guardo los libros y al terminar lo cierro."
+172,beso,beso,BESO,2,CHAU_ORACION_1\BESO_8.mp4,CHAU_ORACION_1.mp4,"Bueno, ya es mi hora, me tengo que ir, Chau, besos, chau. Salí a caminar."
+173,chau,chau,CHAU,3,CHAU_ORACION_1\CHAU_7.mp4,CHAU_ORACION_1.mp4,"Bueno, ya es mi hora, me tengo que ir, Chau, besos, chau. Salí a caminar."
+174,hora,hora,HORA,3,CHAU_ORACION_1\HORA_3.mp4,CHAU_ORACION_1.mp4,"Bueno, ya es mi hora, me tengo que ir, Chau, besos, chau. Salí a caminar."
+175,conversar,conversar,CONVERSAR,2,CHAU_ORACION_2\CONVERSAR_2.mp4,CHAU_ORACION_2.mp4,"Ya es hora despues de conversar mucho, bueno me despido."
+176,chocar,chocar,CHOCAR,1,CHOCAR_ORACION_1\CHOCAR_3.mp4,CHOCAR_ORACION_1.mp4,"Yo caminaba y me choqué con alguien, le dije en gesto como pedir disculpa y seguimos nuestro caminos cada uno a lo suyo."
+177,cuidado,cuidado,CUIDADO,1,CHOCAR_ORACION_1\CUIDADO_4.mp4,CHOCAR_ORACION_1.mp4,"Yo caminaba y me choqué con alguien, le dije en gesto como pedir disculpa y seguimos nuestro caminos cada uno a lo suyo."
+178,cien,cien,CIEN,3,CIEN_ORACION_1\CIEN_3.mp4,CIEN_ORACION_1.mp4,"¿A cuánto está este paquete? está cien, a cien."
+179,paquete,paquete,PAQUETE,1,CIEN_ORACION_1\PAQUETE_1.mp4,CIEN_ORACION_1.mp4,"¿A cuánto está este paquete? está cien, a cien."
+180,reloj,reloj,RELOJ,1,CIEN_ORACION_2\RELOJ_1.mp4,CIEN_ORACION_2.mp4,"Agarro el reloj y lo miro, le pregunto ¿Cuántos está este? está cien, sostengo y miro."
+181,cincuenta,cincuento,CINCUENTA,1,CINCUENTA_ORACION_1\CINCUENTA_5.mp4,CINCUENTA_ORACION_1.mp4,"Prestame la plata, ¿Puedes prestarme cincuenta?"
+182,poder,poder,PODER,1,CINCUENTA_ORACION_1\PODER_4.mp4,CINCUENTA_ORACION_1.mp4,"Prestame la plata, ¿Puedes prestarme cincuenta?"
+183,prestar,prestar yo,PRESTARME,1,CINCUENTA_ORACION_1\PRESTARME_2.mp4,CINCUENTA_ORACION_1.mp4,"Prestame la plata, ¿Puedes prestarme cincuenta?"
+184,ciudad,ciudad,CIUDAD,1,CIUDAD_ORACION_1\CIUDAD_3.mp4,CIUDAD_ORACION_1.mp4,Yo viajo desde lejos y llego a esta hermosa ciudad.
+185,hermoso/hermosa,hermoso,HERMOSA,1,CIUDAD_ORACION_1\HERMOSA_4.mp4,CIUDAD_ORACION_1.mp4,Yo viajo desde lejos y llego a esta hermosa ciudad.
+186,viajar,viajar,VIAJAR,6,CIUDAD_ORACION_1\VIAJAR_2.mp4,CIUDAD_ORACION_1.mp4,Yo viajo desde lejos y llego a esta hermosa ciudad.
+187,combi,combi,COMBI,1,COMBI_ORACION_1\COMBI_1.mp4,COMBI_ORACION_1.mp4,Se cruzan dos combis en la pista.
+188,huevo,huevo,HUEVO,4,COMPRAR_ORACION_1\HUEVO_4.mp4,COMPRAR_ORACION_1.mp4,"Ya compré pan y huevo, me lo llevo."
+189,llevar,llevar,LLEVAR,2,COMPRAR_ORACION_1\LLEVAR_6.mp4,COMPRAR_ORACION_1.mp4,"Ya compré pan y huevo, me lo llevo."
+190,contar (billetes),contar,CONTAR-BILLETES,2,CONTAR-DINERO_ORACION_1\CONTAR-BILLETES_10.mp4,CONTAR-DINERO_ORACION_1.mp4,"Oye, ¿Cuál es el precio este de ahi? Voy a pagar, ¿Éste cuánto está?, Contando billetes, aqui tiene, cuentas billetes. Listo, dame."
+191,cuántos,cuanto,CUANTOS,1,CONTAR-DINERO_ORACION_1\CUANTOS_4.mp4,CONTAR-DINERO_ORACION_1.mp4,"Oye, ¿Cuál es el precio este de ahi? Voy a pagar, ¿Éste cuánto está?, Contando billetes, aqui tiene, cuentas billetes. Listo, dame."
+192,pagar,pagar,PAGAR,1,CONTAR-DINERO_ORACION_1\PAGAR_6.mp4,CONTAR-DINERO_ORACION_1.mp4,"Oye, ¿Cuál es el precio este de ahi? Voy a pagar, ¿Éste cuánto está?, Contando billetes, aqui tiene, cuentas billetes. Listo, dame."
+193,cuánto,cuanto,CUANTO,14,CONTAR-DINERO_ORACION_2\CUANTO_5.mp4,CONTAR-DINERO_ORACION_2.mp4,¿Cuántos me darás? déjame ver y contar el tubo(rollo) de monedas.
+194,dar,dar,DAR,3,CONTAR-DINERO_ORACION_2\DAR_2.mp4,CONTAR-DINERO_ORACION_2.mp4,¿Cuántos me darás? déjame ver y contar el tubo(rollo) de monedas.
+195,rollo (de monedas),rollo,ROLLO-DE-MONEDAS,2,CONTAR-DINERO_ORACION_2\ROLLO-DE-MONEDAS_4.mp4,CONTAR-DINERO_ORACION_2.mp4,¿Cuántos me darás? déjame ver y contar el tubo(rollo) de monedas.
+196,apuntar,ix,IX,4,CONTAR-NUMEROS_ORACION_1\IX_1.mp4,CONTAR-NUMEROS_ORACION_1.mp4,¿Cuántas cajas hay por acá?
+197,contar (con los dedos),contar,CONTAR-MANUAL,3,CONTAR-NUMEROS_ORACION_2\CONTAR-MANUAL_4.mp4,CONTAR-NUMEROS_ORACION_2.mp4,¿Estos paquete cuantos hay por ahí?
+198,apuntar,eso,ESOS,1,CONTAR-NUMEROS_ORACION_2\ESOS_3.mp4,CONTAR-NUMEROS_ORACION_2.mp4,¿Estos paquete cuantos hay por ahí?
+199,contrincante,contricant,CONTRICANTES,1,CONTAR-NUMEROS_ORACION_3\CONTRICANTES_1.mp4,CONTAR-NUMEROS_ORACION_3.mp4,"Oye, el de allá ¿Cuántos puntos se llevaron los contricantes? Ah, que bien!"
+200,entregar,entregar,ENTREGAR,1,CONTAR-NUMEROS_ORACION_4\ENTREGAR_4.mp4,CONTAR-NUMEROS_ORACION_4.mp4,"¿Cuántas paquetes deseas? Tres, ahi tiene. "
+201,tres,tres,TRES,1,CONTAR-NUMEROS_ORACION_4\TRES_3.mp4,CONTAR-NUMEROS_ORACION_4.mp4,"¿Cuántas paquetes deseas? Tres, ahi tiene. "
+202,contar,contar,CONTAR,4,CONTAR_ORACION_1\CONTAR_4.mp4,CONTAR_ORACION_1.mp4,El me dijo una historia bien contada.
+203,historia,historia,HISTORIA,2,CONTAR_ORACION_1\HISTORIA_2.mp4,CONTAR_ORACION_1.mp4,El me dijo una historia bien contada.
+204,papa,papa,PAPA,3,CONTAR_ORACION_2\PAPA_1.mp4,CONTAR_ORACION_2.mp4,Papá dijo que él me contará de su vida.
+205,su,su,SU,1,CONTAR_ORACION_2\SU_4.mp4,CONTAR_ORACION_2.mp4,Papá dijo que él me contará de su vida.
+206,vida,vida,VIDA,1,CONTAR_ORACION_2\VIDA_5.mp4,CONTAR_ORACION_2.mp4,Papá dijo que él me contará de su vida.
+207,conyuge,conyuge,CONYUGE,2,CONYUGE_ORACION_1\CONYUGE_5.mp4,CONYUGE_ORACION_1.mp4,Yo me voy a la iglesia a firmar y estar casada.
+208,iglesia,iglesia,IGLESIA,1,CONYUGE_ORACION_1\IGLESIA_4.mp4,CONYUGE_ORACION_1.mp4,Yo me voy a la iglesia a firmar y estar casada.
+209,cornudo,cornudo,CORNUDO,3,CORNUDO_ORACION_1\CORNUDO_3.mp4,CORNUDO_ORACION_1.mp4,"Oye, ¿Es ella tu esposa? Oh, no puede ser, eres un cornudo."
+210,correr,correr,CORRER,1,CORRER_ORACION_1\CORRER_5.mp4,CORRER_ORACION_1.mp4,Mañana en la mañana tempranito vamos a correr (trotar)
+211,mañana (día),mañana,MAÑANA-DEL-DIA,1,CORRER_ORACION_1\MAÑANA-DEL-DIA_2.mp4,CORRER_ORACION_1.mp4,Mañana en la mañana tempranito vamos a correr (trotar)
+212,mañana,mañana,MAÑANA,1,CORRER_ORACION_1\MAÑANA_1.mp4,CORRER_ORACION_1.mp4,Mañana en la mañana tempranito vamos a correr (trotar)
+213,temprano,temprano,TEMPRANO,2,CORRER_ORACION_1\TEMPRANO_3.mp4,CORRER_ORACION_1.mp4,Mañana en la mañana tempranito vamos a correr (trotar)
+214,cortina,cortina,CORTINA,1,CORTINA_ORACION_1\CORTINA_2.mp4,CORTINA_ORACION_1.mp4,Compramos a ésta cortinas.
+215,cortina (roller),cortina,CORTINA-ROLLER,1,CORTINA_ORACION_3\CORTINA-ROLLER_2.mp4,CORTINA_ORACION_3.mp4,Hay fuerte sol por ahí y cierra la cortina.
+216,cuál,cual,CUAL,2,CUAL_ORACION_1\CUAL_4.mp4,CUAL_ORACION_1.mp4,"Quieres zapatos, te gusta este y este, ¿Cuál de ellos?"
+217,gustar,gustar,GUSTAR,2,CUAL_ORACION_1\GUSTAR_3.mp4,CUAL_ORACION_1.mp4,"Quieres zapatos, te gusta este y este, ¿Cuál de ellos?"
+218,zapato,zapato,ZAPATO,2,CUAL_ORACION_1\ZAPATO_2.mp4,CUAL_ORACION_1.mp4,"Quieres zapatos, te gusta este y este, ¿Cuál de ellos?"
+219,cuándo,cuando,CUANDO,2,CUANDO_ORACION_1\CUANDO_4.mp4,CUANDO_ORACION_1.mp4,"Yo quiero ingresar ahí, ¿Y para cuándo?"
+220,fútbol,futbol,FUTBOL,3,CUANDO_ORACION_2\FUTBOL_1.mp4,CUANDO_ORACION_2.mp4,¿Cuándo ingresaremos a ver el partido?
+221,cuarenta,cuarenta,CUARENTA,2,CUARENTA_ORACION_1\CUARENTA_6.mp4,CUARENTA_ORACION_1.mp4,"Agarro el polo y lo veo bonito. ¿Cuántos está este polo? a 40, pasu."
+222,polo,polo,POLO,1,CUARENTA_ORACION_1\POLO_3.mp4,CUARENTA_ORACION_1.mp4,"Agarro el polo y lo veo bonito. ¿Cuántos está este polo? a 40, pasu."
+223,agarrar (botella),agarrar,AGARRAR-BOTELLA,2,CUARENTA_ORACION_2\AGARRAR-BOTELLA_1.mp4,CUARENTA_ORACION_2.mp4,"Agarro la botella de vino que es fino, está a 40, lo miro y lo dejo."
+224,colocar (botella),colocar,COLOCAR-BOTELLA,1,CUARENTA_ORACION_2\COLOCAR-BOTELLA_6.mp4,CUARENTA_ORACION_2.mp4,"Agarro la botella de vino que es fino, está a 40, lo miro y lo dejo."
+225,fino,fino,FINO,2,CUARENTA_ORACION_2\FINO_3.mp4,CUARENTA_ORACION_2.mp4,"Agarro la botella de vino que es fino, está a 40, lo miro y lo dejo."
+226,vino,vino,VINO,1,CUARENTA_ORACION_2\VINO_2.mp4,CUARENTA_ORACION_2.mp4,"Agarro la botella de vino que es fino, está a 40, lo miro y lo dejo."
+227,cuatro,cuatro,CUATRO,1,CUATRO_ORACION_1\CUATRO_3.mp4,CUATRO_ORACION_1.mp4,Llegaron cuatros mamás para apoyar la enseñanza de la lengua de Seña.
+228,enseñar,enseñar,ENSEÑAR,1,CUATRO_ORACION_1\ENSEÑAR_6.mp4,CUATRO_ORACION_1.mp4,Llegaron cuatros mamás para apoyar la enseñanza de la lengua de Seña.
+229,llegar,llegar,LLEGAR,1,CUATRO_ORACION_1\LLEGAR_4.mp4,CUATRO_ORACION_1.mp4,Llegaron cuatros mamás para apoyar la enseñanza de la lengua de Seña.
+230,mama,mama,MAMA,5,CUATRO_ORACION_1\MAMA_2.mp4,CUATRO_ORACION_1.mp4,Llegaron cuatros mamás para apoyar la enseñanza de la lengua de Seña.
+231,cuerpo,cuerpo,CUERPO,2,CUERPO_ORACION_1\CUERPO_2.mp4,CUERPO_ORACION_1.mp4,Mi cuerpo está sucio. 
+232,sucio,sucio,SUCIO,1,CUERPO_ORACION_1\SUCIO_3.mp4,CUERPO_ORACION_1.mp4,Mi cuerpo está sucio. 
+233,cuna,cuna,CUNA,3,CUNA_ORACION_1\CUNA_5.mp4,CUNA_ORACION_1.mp4,Veo a mi sobrina dormida en su cuna.
+234,sobrina,sobrina,SOBRINA,1,CUNA_ORACION_1\SOBRINA_2.mp4,CUNA_ORACION_1.mp4,Veo a mi sobrina dormida en su cuna.
+235,como,como,COMO,1,CUNA_ORACION_2\COMO_3.mp4,CUNA_ORACION_2.mp4,Vi a una cuna moviendose solito como si el fantasma existiera.
+236,fantasma,fantasma,FANTASMA,1,CUNA_ORACION_2\FANTASMA_4.mp4,CUNA_ORACION_2.mp4,Vi a una cuna moviendose solito como si el fantasma existiera.
+237,caminar (de persona),dar,DAR-PASOS,3,DAR-PASOS_ORACION_1\DAR-PASOS_14.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
+238,dos (personas),dos,DOS-PERSONAS,1,DAR-PASOS_ORACION_1\DOS-PERSONAS_10.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
+239,enamorado,enamorado,ENAMORADO,2,DAR-PASOS_ORACION_1\ENAMORADO_11.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
+240,no importar,no,NO-IMPORTAR,1,DAR-PASOS_ORACION_1\NO-IMPORTAR_13.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
+241,pelea,pelea,PELEA,2,DAR-PASOS_ORACION_1\PELEA_5.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
+242,perro,perro,PERRO,3,DAR-PASOS_ORACION_1\PERRO_6.mp4,DAR-PASOS_ORACION_1.mp4,"Salí a caminar, por ahí ví una pelea de perros, seguí mis pasos. Caminaba por allá, vi una pareja enamorada, a mi no me interesaba y seguí mi camino."
+243,debajo,debajo,DEBAJO,3,DEBAJO_ORACION_1\DEBAJO_5.mp4,DEBAJO_ORACION_1.mp4,¿Ha visto mi gato que lo estoy buscando? - Por ahí debajo.
+244,gato,gato,GATO,4,DEBAJO_ORACION_1\GATO_4.mp4,DEBAJO_ORACION_1.mp4,¿Ha visto mi gato que lo estoy buscando? - Por ahí debajo.
+245,desaparecer,desaparecer,DESAPARECER,1,DEBAJO_ORACION_3\DESAPARECER_4.mp4,DEBAJO_ORACION_3.mp4,Busco aretes que está desaparecido. -Está debajo de ahí.
+246,odiar,odiar,ODIAR,1,DECIRME_ORACION_1\ODIAR_2.mp4,DECIRME_ORACION_1.mp4,Me dijo que me odia.
+247,dentro,dentro,DENTRO,1,DENTRO_ORACION_1\DENTRO_4.mp4,DENTRO_ORACION_1.mp4,Yo vi un gato ahí dentro
+248,desaparecer,desparecer,DESPARECER,2,DESAPARECER_ORACION_1\DESPARECER_3.mp4,DESAPARECER_ORACION_1.mp4,Mi llave está desaparecida
+249,llave,llave,LLAVE,3,DESAPARECER_ORACION_1\LLAVE_2.mp4,DESAPARECER_ORACION_1.mp4,Mi llave está desaparecida
+250,después,despu,DESPUES,5,DESPUES_ORACION_1\DESPUES_1.mp4,DESPUES_ORACION_1.mp4,Después te doy
+251,examen,examen,EXAMEN,2,DESPUES_ORACION_3\EXAMEN_2.mp4,DESPUES_ORACION_3.mp4,Después tomo el examen
+252,grabar,grabar,GRABAR,2,DESPUES_ORACION_4\GRABAR_2.mp4,DESPUES_ORACION_4.mp4,Después lo grabo
+253,día,dia,DIA,1,DIA_ORACION_1\DIA_1.mp4,DIA_ORACION_1.mp4,Un día caminaba y compré pan
+254,diecinueve,diecinueve,DIECINUEVE,3,DIECINUEVE_ORACION_1\DIECINUEVE_3.mp4,DIECINUEVE_ORACION_1.mp4,Ahí están diecinueve peces
+255,pez,pez,PEZ,1,DIECINUEVE_ORACION_1\PEZ_1.mp4,DIECINUEVE_ORACION_1.mp4,Ahí están diecinueve peces
+256,chancho,chancho,CHANCHO,1,DIECIOCHO_ORACION_1\CHANCHO_2.mp4,DIECIOCHO_ORACION_1.mp4,La cantidad de los chanchos es 18
+257,dieciocho,dieciocho,DIECIOCHO,3,DIECIOCHO_ORACION_1\DIECIOCHO_3.mp4,DIECIOCHO_ORACION_1.mp4,La cantidad de los chanchos es 18
+258,gallina,gallina,GALLINA,1,DIECIOCHO_ORACION_2\GALLINA_2.mp4,DIECIOCHO_ORACION_2.mp4,La cantidad de las gallinas es 18
+259,dieciseis,dieciseis,DIECISEIS,3,DIECISEIS_ORACION_1\DIECISEIS_4.mp4,DIECISEIS_ORACION_1.mp4,¿Cuántas sillas hay ahí? Ya están 16 sillas
+260,mono,mono,MONO,1,DIECISEIS_ORACION_2\MONO_2.mp4,DIECISEIS_ORACION_2.mp4,¿Cuántos monos hay? Son 16.
+261,increíble,increible,INCREIBLE,1,DIECISEIS_ORACION_3\INCREIBLE_4.mp4,DIECISEIS_ORACION_3.mp4,"¿Cuántos gatos hay ahí? Increíble, son 16."
+262,diecisiete,diecisiete,DIECISIETE,4,DIECISIETE_ORACION_1\DIECISIETE_3.mp4,DIECISIETE_ORACION_1.mp4,¿Cuántos perros hay? Diecisiete.
+263,pollo,pollo,POLLO,1,DIECISIETE_ORACION_3\POLLO_1.mp4,DIECISIETE_ORACION_3.mp4,¿Cuántos pollos hay? Diecisiete.
+264,pero,pero,PERO,1,DIEZ_ORACION_1\PERO_4.mp4,DIEZ_ORACION_1.mp4,Yo vi muchos niños pero hay pocos como 10.
+265,nada más,nada,NADA-MÁS,1,DIEZ_ORACION_2\NADA-MÁS_7.mp4,DIEZ_ORACION_2.mp4,Yo vi diez sordos en un colegio nada más.
+266,solo,solo,SOLO,1,DIEZ_ORACION_2\SOLO_4.mp4,DIEZ_ORACION_2.mp4,Yo vi diez sordos en un colegio nada más.
+267,sordo,sordo,SORDO,1,DIEZ_ORACION_2\SORDO_5.mp4,DIEZ_ORACION_2.mp4,Yo vi diez sordos en un colegio nada más.
+268,difícil,dificil,DIFICIL,3,DIFICIL_ORACION_1\DIFICIL_2.mp4,DIFICIL_ORACION_1.mp4,La matématica es difícil.
+269,matemática,matematica,MATEMATICA,1,DIFICIL_ORACION_1\MATEMATICA_1.mp4,DIFICIL_ORACION_1.mp4,La matématica es difícil.
+270,dinero,dinero,DINERO---PLATA,1,DINERO_ORACION_2\DINERO---PLATA_3.mp4,DINERO_ORACION_2.mp4,Estoy misio pues no tengo dinero.
+271,rico,rico,RICO,1,DINERO_ORACION_2\RICO_2.mp4,DINERO_ORACION_2.mp4,Estoy misio pues no tengo dinero.
+272,apuntar,xi,XI,2,DINERO_ORACION_2\XI_1.mp4,DINERO_ORACION_2.mp4,Estoy misio pues no tengo dinero.
+273,doce,doce,DOCE,3,DOCE_ORACION_1\DOCE_5.mp4,DOCE_ORACION_1.mp4,Terminé mi graduación a los 12 años.
+274,graduarse,graduar él,GRADUARSE,1,DOCE_ORACION_1\GRADUARSE_4.mp4,DOCE_ORACION_1.mp4,Terminé mi graduación a los 12 años.
+275,imposible,imposible,IMPOSIBLE,3,DOCE_ORACION_2\IMPOSIBLE_3.mp4,DOCE_ORACION_2.mp4,"Yo lo vi, es imposibile. Creo que existe el que tiene 12 ojos."
+276,ojo,ojo,OJOS,1,DOCE_ORACION_2\OJOS_6.mp4,DOCE_ORACION_2.mp4,"Yo lo vi, es imposibile. Creo que existe el que tiene 12 ojos."
+277,pensar,pensar,PENSAR,6,DOCE_ORACION_2\PENSAR_4.mp4,DOCE_ORACION_2.mp4,"Yo lo vi, es imposibile. Creo que existe el que tiene 12 ojos."
+278,país,pais,PAIS,1,DOCE_ORACION_3\PAIS_5.mp4,DOCE_ORACION_3.mp4,Yo viajé en avión a 12 países.
+279,lugar,lugar,LUGAR,4,DONDE_ORACION_1\LUGAR_2.mp4,DONDE_ORACION_1.mp4,¿Dónde es este lugar?
+280,tía,tia,TIA,1,DORMIR_ORACION_3\TIA_2.mp4,DORMIR_ORACION_3.mp4,Mi tía dormía profundamente
+281,buscar (un recipiente),buscar,BUSCAR-RECIPENTE,1,DOS_ORACION_1\BUSCAR-RECIPENTE_3.mp4,DOS_ORACION_1.mp4,"Lo señalé y dije ""espera"", fui a buscar algo y encontré el recipente. Lo llevé y al señalar algo dentro del recipente, le dije que son dos para tí."
+282,esperar,esperar,ESPERAR,10,DOS_ORACION_1\ESPERAR_1.mp4,DOS_ORACION_1.mp4,"Lo señalé y dije ""espera"", fui a buscar algo y encontré el recipente. Lo llevé y al señalar algo dentro del recipente, le dije que son dos para tí."
+283,llevar (recipiente),llevar,LLEVAR-RECIPENTE,1,DOS_ORACION_1\LLEVAR-RECIPENTE_4.mp4,DOS_ORACION_1.mp4,"Lo señalé y dije ""espera"", fui a buscar algo y encontré el recipente. Lo llevé y al señalar algo dentro del recipente, le dije que son dos para tí."
+284,quitar,quitar,QUITAR,1,DOS_ORACION_1\QUITAR_2.mp4,DOS_ORACION_1.mp4,"Lo señalé y dije ""espera"", fui a buscar algo y encontré el recipente. Lo llevé y al señalar algo dentro del recipente, le dije que son dos para tí."
+285,empezar,empezar,EMPEZAR,3,EMPEZAR_ORACION_1\EMPEZAR_4.mp4,EMPEZAR_ORACION_1.mp4,"Miren, ya empezó la clase."
+286,encontrar,encontrar,ENCONTRAR,4,ENCONTRAR_ORACION_1\ENCONTRAR_5.mp4,ENCONTRAR_ORACION_1.mp4,"Mira, nos encontramos a las 9, por favor."
+287,nueve,nueve,NUEVE,1,ENCONTRAR_ORACION_1\NUEVE_4.mp4,ENCONTRAR_ORACION_1.mp4,"Mira, nos encontramos a las 9, por favor."
+288,por favor,por,POR-FAVOR,9,ENCONTRAR_ORACION_1\POR-FAVOR_2.mp4,ENCONTRAR_ORACION_1.mp4,"Mira, nos encontramos a las 9, por favor."
+289,casualidad,casualidad,CASUALIDAD,1,ENCONTRAR_ORACION_3\CASUALIDAD_2.mp4,ENCONTRAR_ORACION_3.mp4,Yo encontré un celular fino por casualidad
+290,celular,celular,CELULAR,1,ENCONTRAR_ORACION_3\CELULAR_4.mp4,ENCONTRAR_ORACION_3.mp4,Yo encontré un celular fino por casualidad
+291,engañar,engañar,ENGAÑAR,2,ENGAÑAR_ORACION_1\ENGAÑAR_7.mp4,ENGAÑAR_ORACION_1.mp4,"Por favor, no. Yo no quiero engaños, por favor."
+292,fácil,facil,FACIL,1,ENGAÑAR_ORACION_2\FACIL_2.mp4,ENGAÑAR_ORACION_2.mp4,"Para mí, es fácil engañar."
+293,cambiar,cambiar,CAMBIAR,1,ENGORDAR_ORACION_1\CAMBIAR_1.mp4,ENGORDAR_ORACION_1.mp4,Tú cambiaste y engordaste
+294,engordar,engordar,ENGORDAR,1,ENGORDAR_ORACION_1\ENGORDAR_2.mp4,ENGORDAR_ORACION_1.mp4,Tú cambiaste y engordaste
+295,ah ya,ah,AH-YA,1,ENTENDER_ORACION_1\AH-YA_1.mp4,ENTENDER_ORACION_1.mp4,"Ah ya, comprendo."
+296,entender,entender,ENTENDER,2,ENTENDER_ORACION_1\ENTENDER_2.mp4,ENTENDER_ORACION_1.mp4,"Ah ya, comprendo."
+297,atención,atencion,ATENCION,1,ENTENDER_ORACION_2\ATENCION_2.mp4,ENTENDER_ORACION_2.mp4,"Atenta, por favor. Entiendelo."
+298,esconder,esconder,ESCONDER,1,ESCONDER_ORACION_1\ESCONDER_3.mp4,ESCONDER_ORACION_1.mp4,"Mira, tú, escóndete, por favor."
+299,tarde,tarde,TARDE,1,ESPERAR_ORACION_2\TARDE_2.mp4,ESPERAR_ORACION_2.mp4,"Oye te demoraste mucho, pues esperé muchísimo."
+300,llamar,llamar,LLAMAR,1,ESPERAR_ORACION_4\LLAMAR_1.mp4,ESPERAR_ORACION_4.mp4,Me llamó de repente que le dije que espera.
+301,estar bien,estar,ESTAR-BIEN,3,ESTAR-BIEN_ORACION_1\ESTAR-BIEN_6.mp4,ESTAR-BIEN_ORACION_1.mp4,¿Estás enfermo?Yo estoy bien.
+302,que,que,QUE,7,ESTAR-BIEN_ORACION_1\QUE_4.mp4,ESTAR-BIEN_ORACION_1.mp4,¿Estás enfermo?Yo estoy bien.
+303,sick (ASL),sick,SICK,1,ESTAR-BIEN_ORACION_1\SICK_3.mp4,ESTAR-BIEN_ORACION_1.mp4,¿Estás enfermo?Yo estoy bien.
+304,apuntar,tú,TU,1,ESTAR-BIEN_ORACION_1\TU_1.mp4,ESTAR-BIEN_ORACION_1.mp4,¿Estás enfermo?Yo estoy bien.
+305,abuelo,abuelo,ABUELO,1,ESTAR-BIEN_ORACION_2\ABUELO_1.mp4,ESTAR-BIEN_ORACION_2.mp4,¿Tu abuelo está en el hospital?Él está bien. 
+306,hospital,hospital,HOSPITAL,1,ESTAR-BIEN_ORACION_2\HOSPITAL_2.mp4,ESTAR-BIEN_ORACION_2.mp4,¿Tu abuelo está en el hospital?Él está bien. 
+307,faltar,faltar,FALTAR,4,FALTAR_ORACION_1\FALTAR_1.mp4,FALTAR_ORACION_1.mp4,Falta tiempo.
+308,leer,leer,LEER,3,FALTAR_ORACION_2\LEER_1.mp4,FALTAR_ORACION_2.mp4,"Leí el nombre de la persona y me di cuenta que no vino, entonces faltó."
+309,venir,venir,VENIR,1,FALTAR_ORACION_2\VENIR_2.mp4,FALTAR_ORACION_2.mp4,"Leí el nombre de la persona y me di cuenta que no vino, entonces faltó."
+310,feliz,feliz,FELIZ,3,FELIZ_ORACION_1\FELIZ_2.mp4,FELIZ_ORACION_1.mp4,Estoy feliz porque termino de ingresar a la universidad. /Estoy feliz por haber ingresado a la universidad.
+311,ingresar,ingresar,INGRESAR,1,FELIZ_ORACION_1\INGRESAR_4.mp4,FELIZ_ORACION_1.mp4,Estoy feliz porque termino de ingresar a la universidad. /Estoy feliz por haber ingresado a la universidad.
+312,universidad,universidad,UNIVERSIDAD,2,FELIZ_ORACION_1\UNIVERSIDAD_5.mp4,FELIZ_ORACION_1.mp4,Estoy feliz porque termino de ingresar a la universidad. /Estoy feliz por haber ingresado a la universidad.
+313,siempre,siempre,SIEMPRE,1,FELIZ_ORACION_3\SIEMPRE_3.mp4,FELIZ_ORACION_3.mp4,Siempre sonrío.
+314,fin,fin,FIN,4,FIN_ORACION_1\FIN_3.mp4,FIN_ORACION_1.mp4,Termino de limpiar.
+315,limpiar,limpiar,LIMPIAR,2,FIN_ORACION_1\LIMPIAR_2.mp4,FIN_ORACION_1.mp4,Termino de limpiar.
+316,escribir,escribir,ESCRIBIR,5,FIN_ORACION_2\ESCRIBIR_2.mp4,FIN_ORACION_2.mp4,Termino de tomar el examen escrito.
+317,flaco,flaco,FLACO,4,FLACO_ORACION_1\FLACO_2.mp4,FLACO_ORACION_1.mp4,¡Qué sorpresa! Eres flaco.
+318,sorpresa,sorpresa,SORPRESA,1,FLACO_ORACION_1\SORPRESA_1.mp4,FLACO_ORACION_1.mp4,¡Qué sorpresa! Eres flaco.
+319,mamá,mamá,MAMÁ,1,FLACO_ORACION_2\MAMÁ_2.mp4,FLACO_ORACION_2.mp4,Mi mamá es delgada.
+320,gordo,gordo,GORDO,3,FLACO_ORACION_3\GORDO_2.mp4,FLACO_ORACION_3.mp4,"Ah, eras gordo. Qué bien que ahora te hayas delgazado"
+321,pasado,pasado,PASADO,3,FLACO_ORACION_3\PASADO_1.mp4,FLACO_ORACION_3.mp4,"Ah, eras gordo. Qué bien que ahora te hayas delgazado"
+322,fortachón,fortachon,FORTACHON,3,FORTACHON_ORACION_1\FORTACHON_4.mp4,FORTACHON_ORACION_1.mp4,Se ve lindo y fortachón.
+323,lindo,lindo,LINDO,1,FORTACHON_ORACION_1\LINDO_3.mp4,FORTACHON_ORACION_1.mp4,Se ve lindo y fortachón.
+324,demostrar,demostrar,DEMOSTRAR,1,FORTACHON_ORACION_2\DEMOSTRAR_3.mp4,FORTACHON_ORACION_2.mp4,"Mira que soy fortachón, mi brazo."
+325,embarazo,embarazo,EMBARAZO,1,FREGADO_ORACION_1\EMBARAZO_2.mp4,FREGADO_ORACION_1.mp4,Estoy fregada con mi embarazo
+326,fregado,fregado,FREGADO,1,FREGADO_ORACION_1\FREGADO_1.mp4,FREGADO_ORACION_1.mp4,Estoy fregada con mi embarazo
+327,fregado,fregrado,FREGRADO,1,FREGADO_ORACION_2\FREGRADO_7.mp4,FREGADO_ORACION_2.mp4,Vendía marihuana y fui atrapada por la policía.
+328,marihuana,marihuana,MARIHUANA,1,FREGADO_ORACION_2\MARIHUANA_2.mp4,FREGADO_ORACION_2.mp4,Vendía marihuana y fui atrapada por la policía.
+329,policía,policia,POLICIA,1,FREGADO_ORACION_2\POLICIA_4.mp4,FREGADO_ORACION_2.mp4,Vendía marihuana y fui atrapada por la policía.
+330,vender,vender,VENDER,1,FREGADO_ORACION_2\VENDER_3.mp4,FREGADO_ORACION_2.mp4,Vendía marihuana y fui atrapada por la policía.
+331,sentir,sentir,SENTIR,1,FRIO_ORACION_2\SENTIR_1.mp4,FRIO_ORACION_2.mp4,Siento frío
+332,bajar (temperatura),baja,BAJA-TEMPERATURA,1,FRIO_ORACION_3\BAJA-TEMPERATURA_2.mp4,FRIO_ORACION_3.mp4,La temperatura en Huaraz está muy baja.
+333,Huaraz,huaraz,HUARAZ,1,FRIO_ORACION_3\HUARAZ_1.mp4,FRIO_ORACION_3.mp4,La temperatura en Huaraz está muy baja.
+334,fundar,fundar,FUNDAR,2,FUNDAR_ORACION_1\FUNDAR_4.mp4,FUNDAR_ORACION_1.mp4,"Eso... le hice una interrogación acerca de esa casa, lo que me hizo dar cuenta que esa casa fue fundada hace mucho mientras lo escribía."
+335,preguntar,preguntar,PREGUNTAR,3,FUNDAR_ORACION_1\PREGUNTAR_2.mp4,FUNDAR_ORACION_1.mp4,"Eso... le hice una interrogación acerca de esa casa, lo que me hizo dar cuenta que esa casa fue fundada hace mucho mientras lo escribía."
+336,casarse,casar él,CASARSE,1,FUTURO_ORACION_1\CASARSE_3.mp4,FUTURO_ORACION_1.mp4,Me casaré.
+337,wow,wow,WOW,1,GORDO_ORACION_1\WOW_1.mp4,GORDO_ORACION_1.mp4,¡Wow! ¡Estás gordo!
+338,gorro,gorro,GORRO,3,GORRO_ORACION_1\GORRO_1_5.mp4,GORRO_ORACION_1.mp4,Busqué el gorro y lo coloqué antes de ir a la playa.
+339,playa,playa,PLAYA,2,GORRO_ORACION_1\PLAYA_3.mp4,GORRO_ORACION_1.mp4,Busqué el gorro y lo coloqué antes de ir a la playa.
+340,descansar,descansar,DESCANSAR,1,GORRO_ORACION_2\DESCANSAR_1.mp4,GORRO_ORACION_2.mp4,"Cuando descansaba, había mucho sol y puse una gorro de línea clásica para taparlo."
+341,mucho (sol),mucho,MUCHO-SOL,1,GORRO_ORACION_2\MUCHO-SOL_2.mp4,GORRO_ORACION_2.mp4,"Cuando descansaba, había mucho sol y puse una gorro de línea clásica para taparlo."
+342,sacar,sacar,SACAR,1,GORRO_ORACION_2\SACAR_3.mp4,GORRO_ORACION_2.mp4,"Cuando descansaba, había mucho sol y puse una gorro de línea clásica para taparlo."
+343,deporte,deporte,DEPORTE,1,HACER_ORACION_1\DEPORTE_5.mp4,HACER_ORACION_1.mp4,Entreno duro en ese lugar deportivo.
+344,entrenar,entrenar,ENTRENAR,1,HACER_ORACION_1\ENTRENAR_3.mp4,HACER_ORACION_1.mp4,Entreno duro en ese lugar deportivo.
+345,hacer,hacer,HACER,1,HACER_ORACION_1\HACER_2.mp4,HACER_ORACION_1.mp4,Entreno duro en ese lugar deportivo.
+346,cruzar (en el cielo),cruzar,CRUZAR-EL-CIELO,1,HELICOPTERO_ORACION_1\CRUZAR-EL-CIELO_2.mp4,HELICOPTERO_ORACION_1.mp4,Dos helicópteros se cruzan en el cielo
+347,helicóptero,helicoptero,HELICOPTERO,1,HELICOPTERO_ORACION_1\HELICOPTERO_1_1.mp4,HELICOPTERO_ORACION_1.mp4,Dos helicópteros se cruzan en el cielo
+348,televisión,televisión,TELEVISIÓN,1,HIJO_ORACION_1\TELEVISIÓN_5.mp4,HIJO_ORACION_1.mp4,Yo ví a mi hijo mirar mucho el televisior.
+349,arroz chaufa,arroz,ARROZ-CHAUFA,1,HIJO_ORACION_3\ARROZ-CHAUFA_5.mp4,HIJO_ORACION_3.mp4,A mi hijo le encanta comer arroz chaufa
+350,Perú,peru,PERU,1,HISTORIA_ORACION_1\PERU_4.mp4,HISTORIA_ORACION_1.mp4,Estuve leyendo un libro sobre historia del Perú.
+351,hola,hola,HOLA,4,HOLA_ORACION_1\HOLA_4.mp4,HOLA_ORACION_1.mp4,Nos cruzamos caminando y nos saludamos
+352,abrazar,abrazar,ABRAZAR,1,HOLA_ORACION_2\ABRAZAR_5.mp4,HOLA_ORACION_2.mp4,"Yo estaba escribiendo, me volteo y veo a una persona. Nos saludamos, nos abrazamos, me dice que está bien y le digo que estoy bien"
+353,sábado,sabado,SABADO,1,HOY_ORACION_1\SABADO_2.mp4,HOY_ORACION_1.mp4,Hoy es sábado.
+354,fiesta,fiesta,FIESTA,1,HOY_ORACION_2\FIESTA_4.mp4,HOY_ORACION_2.mp4,Hoy iré a una fiesta
+355,dibujar,dibujar,DIBUJAR,2,IDEA_ORACION_1\DIBUJAR_2.mp4,IDEA_ORACION_1.mp4,"No sabía qué dibujar, estuve pensando, tuve una idea, la dibujé y di el dibujo."
+356,idea,idea,IDEA,3,IDEA_ORACION_1\IDEA_2_5.mp4,IDEA_ORACION_1.mp4,"No sabía qué dibujar, estuve pensando, tuve una idea, la dibujé y di el dibujo."
+357,igual,igual,IGUAL,14,IGUAL_ORACION_1\IGUAL_10.mp4,IGUAL_ORACION_1.mp4,¿Te vas a comer todo eso? Hay que dividir los alimentos en partes iguales.
+358,intentar,intentar,INTENTAR,1,IGUAL_ORACION_1\INTENTAR_2.mp4,IGUAL_ORACION_1.mp4,¿Te vas a comer todo eso? Hay que dividir los alimentos en partes iguales.
+359,vestir,vestir,VESTIR,1,IGUAL_ORACION_2\VESTIR_1.mp4,IGUAL_ORACION_2.mp4,Estamos vestidos igual
+360,participar,participar,PARTICIPAR,1,IGUAL_ORACION_4\PARTICIPAR_2.mp4,IGUAL_ORACION_4.mp4,"Al participar, alcanzamos la igualdad"
+361,de acuerdo,de,DE-ACUERDO,1,IGUAL_ORACION_5\DE-ACUERDO_2.mp4,IGUAL_ORACION_5.mp4,"Conversamos y no estuvimos de acuerdo, entonces no me convenció. Quedamos igual y fin."
+362,empujar,empujar,EMPUJAR,2,IGUAL_ORACION_6\EMPUJAR_2.mp4,IGUAL_ORACION_6.mp4,"A mi me empujó, así que lo empujé igual."
+363,deber,deber,DEBER,1,IGUAL_ORACION_7\DEBER_3.mp4,IGUAL_ORACION_7.mp4,"Ya están los grupos. No debe faltar ninguno, todos deben ser iguales"
+364,grupo,grupo,GRUPO,1,IGUAL_ORACION_7\GRUPO_1.mp4,IGUAL_ORACION_7.mp4,"Ya están los grupos. No debe faltar ninguno, todos deben ser iguales"
+365,comunicar,comunicar,COMUNICAR,1,IGUAL_ORACION_8\COMUNICAR_2.mp4,IGUAL_ORACION_8.mp4,"Las personas se comunican y piensan de formas diferentes. Todos somos iguales, no diferentes."
+366,desigualdad,desigualdad,DESIGUALDAD,1,IGUAL_ORACION_8\DESIGUALDAD_6.mp4,IGUAL_ORACION_8.mp4,"Las personas se comunican y piensan de formas diferentes. Todos somos iguales, no diferentes."
+367,diferente,diferente,DIFERENTE,1,IGUAL_ORACION_8\DIFERENTE_4.mp4,IGUAL_ORACION_8.mp4,"Las personas se comunican y piensan de formas diferentes. Todos somos iguales, no diferentes."
+368,persona,persona,PERSONA,2,IGUAL_ORACION_8\PERSONA_1.mp4,IGUAL_ORACION_8.mp4,"Las personas se comunican y piensan de formas diferentes. Todos somos iguales, no diferentes."
+369,animal,animal,ANIMAL,1,IMPOSIBLE_ORACION_1\ANIMAL_5.mp4,IMPOSIBLE_ORACION_1.mp4,"Yo le dije que...¿has oído del gran animal como el dinsaurio? Dijo ""imposible, no existe aquí en la tierra""."
+370,dinosaurio,dinosaurio,DINOSAURIO,1,IMPOSIBLE_ORACION_1\DINOSAURIO_8.mp4,IMPOSIBLE_ORACION_1.mp4,"Yo le dije que...¿has oído del gran animal como el dinsaurio? Dijo ""imposible, no existe aquí en la tierra""."
+371,mundo,mundo,MUNDO,1,IMPOSIBLE_ORACION_1\MUNDO_11.mp4,IMPOSIBLE_ORACION_1.mp4,"Yo le dije que...¿has oído del gran animal como el dinsaurio? Dijo ""imposible, no existe aquí en la tierra""."
+372,no haber,no,NO-HABER,1,IMPOSIBLE_ORACION_1\NO-HABER_10.mp4,IMPOSIBLE_ORACION_1.mp4,"Yo le dije que...¿has oído del gran animal como el dinsaurio? Dijo ""imposible, no existe aquí en la tierra""."
+373,infiel,infiel,INFIEL,1,INFIEL_ORACION_1\INFIEL_6.mp4,INFIEL_ORACION_1.mp4,Es imposible que me hayan dicho que mi enamorado es infiel.
+374,visitar,visitar,VISITAR,1,IR_ORACION_4\VISITAR_2.mp4,IR_ORACION_4.mp4,Tú irás a visitar a la casa de tu madre.
+375,esquina,esquina,ESQUINA,1,IR_ORACION_5\ESQUINA_2.mp4,IR_ORACION_5.mp4,Tu ve a la esquina y espérame ahí para encontrarte.
+376,disculpa,disculpa,DISCULPA,2,JOVEN_ORACION_1\DISCULPA_6.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
+377,joven,joven,JOVEN,3,JOVEN_ORACION_1\JOVEN_8.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
+378,mejor,mejor,MEJOR,1,JOVEN_ORACION_1\MEJOR_2.mp4,JOVEN_ORACION_1.mp4,"Dime, mejor vamos a trabajar. - Aguarda, disculpa pero soy joven y me dedico a estudiar ahora."
+379,libre,libre,LIBRE,1,JOVEN_ORACION_2\LIBRE_12.mp4,JOVEN_ORACION_2.mp4,"No debo pensar en el futuro sino de presente, como soy joven necesito pensar, tener mi libertad y ser persona social."
+380,necesitar,necesitar,NECESITAR,2,JOVEN_ORACION_2\NECESITAR_8.mp4,JOVEN_ORACION_2.mp4,"No debo pensar en el futuro sino de presente, como soy joven necesito pensar, tener mi libertad y ser persona social."
+381,viejo,viejo,VIEJO,1,JOVEN_ORACION_3\VIEJO_4.mp4,JOVEN_ORACION_3.mp4,"Alto ahí, disculpa no soy vieja, soy joven, ¿Qué te pasas?"
+382,jugar,jugar,JUGAR,3,JUGAR_ORACION_1\JUGAR_2.mp4,JUGAR_ORACION_1.mp4,¡Vamos a jugar!
+383,juntos,junto,JUNTOS,1,JUNTOS_ORACION_1\JUNTOS_3.mp4,JUNTOS_ORACION_1.mp4,Vamos nosotros dos juntos.
+384,encender (motor),encender,ENCENDER-MOTOR,1,LANCHA_ORACION_1\ENCENDER-MOTOR_2.mp4,LANCHA_ORACION_1.mp4,Se cruzan dos lanchas.
+385,motor,motor,MOTOR,1,LANCHA_ORACION_1\MOTOR_3.mp4,LANCHA_ORACION_1.mp4,Se cruzan dos lanchas.
+393,luego,luego,LUEGO,2,LUEGO_ORACION_1\LUEGO_1.mp4,LUEGO_ORACION_1.mp4,Luego escribiré en la pizarra.
+394,baño,baño,BAÑO,1,LUEGO_ORACION_2\BAÑO_2.mp4,LUEGO_ORACION_2.mp4,Luego puedes ir al baño.
+395,malo,malo,MALO,2,MALO_ORACION_1\MALO_7.mp4,MALO_ORACION_1.mp4,"Fui el testigo de como la mala mamá que fue aspera al dar el plato a un niño, y el sorprendido y dolido."
+396,persona (baja),persona,PERSONA-PEQUEÑA,4,MALO_ORACION_1\PERSONA-PEQUEÑA_3.mp4,MALO_ORACION_1.mp4,"Fui el testigo de como la mala mamá que fue aspera al dar el plato a un niño, y el sorprendido y dolido."
+397,tirar,tirar,TIRAR,1,MALO_ORACION_1\TIRAR_2.mp4,MALO_ORACION_1.mp4,"Fui el testigo de como la mala mamá que fue aspera al dar el plato a un niño, y el sorprendido y dolido."
+398,agrupar,agrupar,AGRUPAR,1,MALO_ORACION_2\AGRUPAR_6.mp4,MALO_ORACION_2.mp4,"¿Por qué contarle a nuestro amigo? Mejor no, vamos a juntarnos aparte dice el otro amigo. Lo veo como una mala persona."
+399,alejarse,alejar,ALEJAR-DE-LA-PERSONA,1,MALO_ORACION_2\ALEJAR-DE-LA-PERSONA_5.mp4,MALO_ORACION_2.mp4,"¿Por qué contarle a nuestro amigo? Mejor no, vamos a juntarnos aparte dice el otro amigo. Lo veo como una mala persona."
+400,barrer,barrer,BARRER,1,MANDAR_ORACION_1\BARRER_6.mp4,MANDAR_ORACION_1.mp4,"Oye, por favor ve por allá y te mando a barrer."
+401,mandar,mandar,MANDAR,1,MANDAR_ORACION_1\MANDAR_5.mp4,MANDAR_ORACION_1.mp4,"Oye, por favor ve por allá y te mando a barrer."
+402,enviar,enviar,ENVIAR,1,MANDAR_ORACION_2\ENVIAR_3.mp4,MANDAR_ORACION_2.mp4,Pero ya lo mandé.
+403,matrimonio,matrimonio,MATRIMONIO,2,MATRIMONIO_ORACION_1\MATRIMONIO_2.mp4,MATRIMONIO_ORACION_1.mp4,¿Ya te comprometiste en matrimonio?
+404,invitar,invitar,INVITAR,1,MATRIMONIO_ORACION_2\INVITAR_1.mp4,MATRIMONIO_ORACION_2.mp4,"Invitame a tu matrimonio, si?"
+405,bolsillo,bolsillo,BOLSILLO,1,MUCHO-DINERO_ORACION_1\BOLSILLO_2.mp4,MUCHO-DINERO_ORACION_1.mp4,"Yo, en el bolsillo, tengo mucho dinero."
+406,mucho (dinero),mucho,MUCHO-DINERO,1,MUCHO-DINERO_ORACION_1\MUCHO-DINERO_4.mp4,MUCHO-DINERO_ORACION_1.mp4,"Yo, en el bolsillo, tengo mucho dinero."
+407,pelota,pelota,PELOTA,1,PELOTA_ORACION_1\PELOTA_3.mp4,PELOTA_ORACION_1.mp4,Yo compro una pelota.
+408,perder,perder,PERDER,1,PERDER_ORACION_1\PERDER_3.mp4,PERDER_ORACION_1.mp4,Mi llave está perdida.
+409,alto,alto,ALTO,1,PERSONA-PEQUEÑA_ORACION_3\ALTO_2.mp4,PERSONA-PEQUEÑA_ORACION_3.mp4,Yo soy alta y tú eres una persona pequeña.
+410,pila,pila,PILA,1,PILA_ORACION_1\PILA_2.mp4,PILA_ORACION_1.mp4,Yo tengo una pila. ¿De qué? Trabajo.
+411,doctor,doctor,DOCTOR,1,PREGUNTAR_ORACION_1\DOCTOR_1.mp4,PREGUNTAR_ORACION_1.mp4,Mientras hablaba con el dr y le hice las preguntas.
+412,presente,presente,PRESENTE,1,PRESENTE_ORACION_1\PRESENTE_5.mp4,PRESENTE_ORACION_1.mp4,¿Qué pasó? -fue él/ella.
+413,qué,qué,QUÉ,1,PRESENTE_ORACION_1\QUÉ_2.mp4,PRESENTE_ORACION_1.mp4,¿Qué pasó? -fue él/ella.
+414,abrir (puerta),abrir,ABRIR-PUERTA,1,PUERTA_ORACION_1\ABRIR-PUERTA_3.mp4,PUERTA_ORACION_1.mp4,"Camino hacia la puerta, la abro y entro a la oficina."
+415,entrar (persona),entrar,ENTRAR-PERSONA,1,PUERTA_ORACION_1\ENTRAR-PERSONA_4.mp4,PUERTA_ORACION_1.mp4,"Camino hacia la puerta, la abro y entro a la oficina."
+416,subir (persona),subir,SUBIR-PERSONA,1,SUBIR-PERSONA_ORACION_1\SUBIR-PERSONA_4.mp4,SUBIR-PERSONA_ORACION_1.mp4,"Cuando veo el papel, uy ya era hora, y subo rapidito para arriba."
+417,mucho (tiempo),mucho,MUCHO-TIEMPO,1,SUDAR_ORACION_1\MUCHO-TIEMPO_3.mp4,SUDAR_ORACION_1.mp4,"Yo jugué mucho tiempo, ya está atardeciendo y ya estoy sudando."
+418,sudar,sudar,SUDAR,2,SUDAR_ORACION_1\SUDAR_7.mp4,SUDAR_ORACION_1.mp4,"Yo jugué mucho tiempo, ya está atardeciendo y ya estoy sudando."
+419,sudar mucho,sudar,SUDAR-MUCHO,1,SUDAR_ORACION_2\SUDAR-MUCHO_6.mp4,SUDAR_ORACION_2.mp4,Yo veo a mi amigo sudar mucho.
+420,teléfono,telefono,TELEFONO,2,TELEFONO_ORACION_1\TELEFONO_3.mp4,TELEFONO_ORACION_1.mp4,Mi papá está en teléfono.
+421,ocupado,ocupado,OCUPADO,1,TELEFONO_ORACION_2\OCUPADO_1.mp4,TELEFONO_ORACION_2.mp4,Veo que está ocupado para que atienda al telefono.
+422,sonar (teléfono),sonar,SONAR-TELEFONO,1,TELEFONO_ORACION_2\SONAR-TELEFONO_2.mp4,TELEFONO_ORACION_2.mp4,Veo que está ocupado para que atienda al telefono.
