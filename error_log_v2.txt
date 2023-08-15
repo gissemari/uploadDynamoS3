@@ -1,7 +1,0 @@
-Error processing path: ..\Datasets\PUCP_Glosas\LENTES-DE-SOL\LENTES-DE-SOL-ORACION_1.eaf
-Error processing path: ..\Datasets\PUCP_Glosas\LENTES-DE-SOL\LENTES-DE-SOL-ORACION_1.eaf
-Error processing path: ..\Datasets\PUCP_Glosas\LENTES-DE-SOL\LENTES-DE-SOL-ORACION_1.eaf
-Error processing path: ..\Datasets\PUCP_Glosas\LO-SIENTO\LO-SIENTO_ORACION_1.eaf
-Error processing path: ..\Datasets\PUCP_Glosas\LO-SIENTO\LO-SIENTO_ORACION_2.eaf
-Error processing path: ..\Datasets\PUCP_Glosas\LO-SIENTO\LO-SIENTO_ORACION_2.eaf
-Error processing path: ..\Datasets\PUCP_Glosas\LO-SIENTO\LO-SIENTO_ORACION_2.eaf
